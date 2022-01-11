@@ -62,7 +62,7 @@ public class Player : MonoBehaviour
         _jump            = false;
 
         
-
+        
         
     }
 
@@ -127,11 +127,11 @@ public class Player : MonoBehaviour
 
         if (PauseMenu.Paused)
         {
-            HideCursor();
+            ShowCursor();
         }
         else
         {
-            ShowCursor();
+            HideCursor();
         }
     }
 
