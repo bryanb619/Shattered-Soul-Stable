@@ -1,0 +1,1 @@
+To change BG change "Texture Type" to SPRITE (2D and UI) 
