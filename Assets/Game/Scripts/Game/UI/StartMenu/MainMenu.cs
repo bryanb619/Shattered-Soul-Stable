@@ -1,19 +1,21 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-// scene manager 
 using UnityEngine.SceneManagement;
 
 public class MainMenu : MonoBehaviour
-{   // evento para Play button, isto carrega a cena 1 (Game)
+{   
+    // Buttons
     public void PlayButton ()
     {   
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+        //Load Game scene (start game)
+        SceneManager.LoadScene("Game");
     }
     public void QuitButton ()
     {   
+        // Quit game
         Application.Quit();
-        // Para saber se funciona, remover este código em versão futura
+        // 
         Debug.Log("Game whas Quitted");
     }
         

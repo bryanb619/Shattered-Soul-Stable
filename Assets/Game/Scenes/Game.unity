@@ -18719,7 +18719,7 @@ GameObject:
   m_Component:
   - component: {fileID: 384456752}
   m_Layer: 5
-  m_Name: UI NEW WORKING
+  m_Name: UI
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -19009,7 +19009,7 @@ GameObject:
   m_Component:
   - component: {fileID: 394092178}
   m_Layer: 0
-  m_Name: GameWorld (Map)
+  m_Name: GameWorld (Map) & (Interactables)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
