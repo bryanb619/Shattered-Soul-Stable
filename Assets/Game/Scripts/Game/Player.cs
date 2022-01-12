@@ -60,10 +60,6 @@ public class Player : MonoBehaviour
         _acceleration    = Vector3.zero;
         _velocity        = Vector3.zero;
         _jump            = false;
-
-        
-        
-        
     }
 
     // this method hides the cursor on the game screen
