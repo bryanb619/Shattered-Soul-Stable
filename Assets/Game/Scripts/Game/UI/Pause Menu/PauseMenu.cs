@@ -7,8 +7,7 @@ using UnityEngine.SceneManagement;
 public class PauseMenu : MonoBehaviour
 {
     // calling player script
-    //public Player Player;
-
+    // public Player Player;
 
     // Variables 
     // game pased bool 
@@ -16,9 +15,6 @@ public class PauseMenu : MonoBehaviour
 
     // 
     public GameObject pauseMenu;
-
-
-
 
     // Update is called once per frame
     void Update()
@@ -47,8 +43,8 @@ public class PauseMenu : MonoBehaviour
         Time.timeScale = 1f;
 
         Paused = false;
-        //
-        //Player.HideCursor();
+     
+        
 
     }
     // method pause
@@ -61,8 +57,7 @@ public class PauseMenu : MonoBehaviour
         Time.timeScale = 0f;
 
         Paused = true;
-        //
-        // Player.ShowCursor();
+     
 
     }
 

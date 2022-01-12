@@ -60,8 +60,9 @@ public class Player : MonoBehaviour
         _acceleration    = Vector3.zero;
         _velocity        = Vector3.zero;
         _jump            = false;
+        HideCursor();
+        
     }
-
     // this method hides the cursor on the game screen
     public void HideCursor()
     {
@@ -69,11 +70,12 @@ public class Player : MonoBehaviour
         Cursor.lockState = CursorLockMode.Locked;
     }
 
-    public void ShowCursor()
+    /* public void ShowCursor()
     {
         Cursor.visible = true;
-    }
 
+    }
+    */ 
     // Jump Method
     void Update()
     {
@@ -81,7 +83,7 @@ public class Player : MonoBehaviour
         UpdateRotation();
         UpdateTilt();
 
-        if (PauseMenu.Paused)
+        /*if (PauseMenu.Paused)
         {
             ShowCursor();
         }
@@ -89,6 +91,7 @@ public class Player : MonoBehaviour
         {
             HideCursor();
         }
+        */
 
     }
 
