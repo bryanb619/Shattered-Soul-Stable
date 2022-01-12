@@ -5,6 +5,8 @@ public class GeminiPuzzle : MonoBehaviour
     [SerializeField] private Transform emptySpace = null;
     private Camera _camera;
     [SerializeField] private Tiles[] tiles;
+
+
     void Start()
     {
         _camera = Camera.main;
@@ -23,14 +25,14 @@ public class GeminiPuzzle : MonoBehaviour
 
                 Debug.Log(hit.transform.name);
 
-                if (Vector2.Distance(a: emptySpace.position, b: hit.transform.position) < 0.5)
+                if (Vector2.Distance(a: emptySpace.position, b: hit.transform.position) < 2)
                 {
                     Debug.Log(hit.transform.name + "Second if was tested");
 
                     Vector2 lastEmptySpacePosition = emptySpace.position;
-                    //Tiles thisTile = hit.GetComponent<Tiles>();
-                    emptySpace.position = hit.transform.position;
-                    //thisTile.targetPosition = lastEmptySpacePosition;
+                    GeminiPuzzle thisTile = hit.transform.GetComponent<GeminiPuzzle>();
+                    emptySpace.position = thisTile.target.position;
+                    thisTile.targetPosition = lastEmptySpacePosition;
                 }
 
             }
