@@ -81,8 +81,17 @@ public class Player : MonoBehaviour
         UpdateRotation();
         UpdateTilt();
 
-       
+        if (PauseMenu.Paused)
+        {
+            ShowCursor();
+        }
+        else
+        {
+            HideCursor();
+        }
+
     }
+
 
     // Update jump
     private void UpdateJump()
@@ -121,14 +130,7 @@ public class Player : MonoBehaviour
         UpdateVelocity();
         UpdatePosition();
 
-        if (PauseMenu.Paused)
-        {
-            ShowCursor();
-        }
-        else
-        {
-            HideCursor();
-        }
+        
     }
 
     //
@@ -173,5 +175,4 @@ public class Player : MonoBehaviour
         _controller.Move(transform.TransformVector(motion));
     }
 
-    //
 }
