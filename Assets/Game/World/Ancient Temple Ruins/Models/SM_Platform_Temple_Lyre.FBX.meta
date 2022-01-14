@@ -1,0 +1,556 @@
+fileFormatVersion: 2
+guid: 47a3cb98efd2da4408cbfaa846b5f7a4
+ModelImporter:
+  serializedVersion: 20101
+  internalIDToNameTable:
+  - first:
+      1: 100000
+    second: Front
+  - first:
+      1: 100002
+    second: Necropolis_Building_Small_D:ZBrushPolyMesh3D_6
+  - first:
+      1: 100004
+    second: SM_CliffPiece_D_LOD0_13
+  - first:
+      1: 100006
+    second: SM_CliffPiece_D_LOD0_2
+  - first:
+      1: 100008
+    second: SM_CliffPiece_D_LOD0_8
+  - first:
+      1: 100010
+    second: SM_CliffPiece_F_LOD0_17
+  - first:
+      1: 100012
+    second: SM_Void_Island01_Floor
+  - first:
+      1: 100014
+    second: //RootNode
+  - first:
+      1: 100016
+    second: ZBrushPolyMesh3D_1
+  - first:
+      1: 100018
+    second: //RootNode
+  - first:
+      4: 400000
+    second: Front
+  - first:
+      4: 400002
+    second: Necropolis_Building_Small_D:ZBrushPolyMesh3D_6
+  - first:
+      4: 400004
+    second: SM_CliffPiece_D_LOD0_13
+  - first:
+      4: 400006
+    second: SM_CliffPiece_D_LOD0_2
+  - first:
+      4: 400008
+    second: SM_CliffPiece_D_LOD0_8
+  - first:
+      4: 400010
+    second: SM_CliffPiece_F_LOD0_17
+  - first:
+      4: 400012
+    second: SM_Void_Island01_Floor
+  - first:
+      4: 400014
+    second: //RootNode
+  - first:
+      4: 400016
+    second: ZBrushPolyMesh3D_1
+  - first:
+      4: 400018
+    second: //RootNode
+  - first:
+      21: 2100000
+    second: M_RockSand_1
+  - first:
+      21: 2100002
+    second: M_Rubble
+  - first:
+      21: 2100004
+    second: M_FloorTiles
+  - first:
+      21: 2100006
+    second: M_Temple_Trimsheet
+  - first:
+      21: 2100008
+    second: M_Pillar_Marble
+  - first:
+      21: 2100010
+    second: M_Pedestal_Stone
+  - first:
+      21: 2100012
+    second: M_Lyre_Pedestal
+  - first:
+      21: 2100014
+    second: M_Helmet_Warrior
+  - first:
+      21: 2100016
+    second: M_BannisterPedestalBroken
+  - first:
+      21: 2100018
+    second: M_BannisterPedestal
+  - first:
+      21: 2100020
+    second: M_DeadCornifer
+  - first:
+      21: 2100022
+    second: M_Candles_Wax
+  - first:
+      21: 2100024
+    second: M_Scaffold_1
+  - first:
+      21: 2100026
+    second: M_Boal_Old_Small
+  - first:
+      21: 2100028
+    second: M_Tomb
+  - first:
+      21: 2100030
+    second: M_BannisterRail
+  - first:
+      21: 2100032
+    second: M_DockScaffold
+  - first:
+      21: 2100034
+    second: M_Bark
+  - first:
+      21: 2100036
+    second: M_Necropolis_Building_Small_D
+  - first:
+      21: 2100038
+    second: M_Rubble_Large
+  - first:
+      21: 2100040
+    second: M_RockSand
+  - first:
+      21: 2100042
+    second: M_Necropolis_Building_Large_B
+  - first:
+      21: 2100044
+    second: M_DeadGrass
+  - first:
+      21: 2100046
+    second: M_CliffPiece_H
+  - first:
+      21: 2100048
+    second: M_CliffPiece_F
+  - first:
+      21: 2100050
+    second: M_CliffPiece_E_destroyed
+  - first:
+      21: 2100052
+    second: M_CliffPiece_D
+  - first:
+      21: 2100054
+    second: M_Bow_02
+  - first:
+      21: 2100056
+    second: M_Bow_02_Arrow
+  - first:
+      21: 2100058
+    second: M_Necropolis_Building_Small_A_destroyed
+  - first:
+      21: 2100060
+    second: M_CliffPiece_G
+  - first:
+      21: 2100062
+    second: M_CliffPiece_B_destroyed
+  - first:
+      21: 2100064
+    second: M_CliffPiece_C_destroyed
+  - first:
+      21: 2100066
+    second: BaseWoodB
+  - first:
+      21: 2100068
+    second: BaseWoodB_1
+  - first:
+      21: 2100070
+    second: M_Skelleton
+  - first:
+      21: 2100072
+    second: M_Skull
+  - first:
+      21: 2100074
+    second: No Name
+  - first:
+      23: 2300000
+    second: Front
+  - first:
+      23: 2300002
+    second: Necropolis_Building_Small_D:ZBrushPolyMesh3D_6
+  - first:
+      23: 2300004
+    second: SM_CliffPiece_D_LOD0_13
+  - first:
+      23: 2300006
+    second: SM_CliffPiece_D_LOD0_2
+  - first:
+      23: 2300008
+    second: SM_CliffPiece_D_LOD0_8
+  - first:
+      23: 2300010
+    second: SM_CliffPiece_F_LOD0_17
+  - first:
+      23: 2300012
+    second: SM_Void_Island01_Floor
+  - first:
+      23: 2300014
+    second: ZBrushPolyMesh3D_1
+  - first:
+      23: 2300016
+    second: //RootNode
+  - first:
+      33: 3300000
+    second: Front
+  - first:
+      33: 3300002
+    second: Necropolis_Building_Small_D:ZBrushPolyMesh3D_6
+  - first:
+      33: 3300004
+    second: SM_CliffPiece_D_LOD0_13
+  - first:
+      33: 3300006
+    second: SM_CliffPiece_D_LOD0_2
+  - first:
+      33: 3300008
+    second: SM_CliffPiece_D_LOD0_8
+  - first:
+      33: 3300010
+    second: SM_CliffPiece_F_LOD0_17
+  - first:
+      33: 3300012
+    second: SM_Void_Island01_Floor
+  - first:
+      33: 3300014
+    second: ZBrushPolyMesh3D_1
+  - first:
+      33: 3300016
+    second: //RootNode
+  - first:
+      43: 4300000
+    second: SM_Void_Island01_Floor
+  - first:
+      43: 4300002
+    second: Necropolis_Building_Small_D:ZBrushPolyMesh3D_6
+  - first:
+      43: 4300004
+    second: ZBrushPolyMesh3D_1
+  - first:
+      43: 4300006
+    second: SM_CliffPiece_D_LOD0_2
+  - first:
+      43: 4300008
+    second: SM_CliffPiece_D_LOD0_8
+  - first:
+      43: 4300010
+    second: SM_CliffPiece_D_LOD0_13
+  - first:
+      43: 4300012
+    second: SM_CliffPiece_F_LOD0_17
+  - first:
+      43: 4300014
+    second: Front
+  - first:
+      43: 4300016
+    second: SM_LyreNotes_StandingPlate_Lo
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BaseWoodB
+    second: {fileID: 2100000, guid: 1910729f1160249498f3a84b9dca4456, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BaseWoodB_1
+    second: {fileID: 2100000, guid: ddb415d106052ae4f9457c340e5a58f3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_BannisterPedestal
+    second: {fileID: 2100000, guid: e6c6e5fefe21cef4fa1ed32813cc1546, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_BannisterPedestalBroken
+    second: {fileID: 2100000, guid: 12e901bcfd938a349b2ca64e4f89e4ed, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_BannisterRail
+    second: {fileID: 2100000, guid: ec2a295c5d29dd8479385eec2160704a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Bark
+    second: {fileID: 2100000, guid: c53069ba9c34c334a8ce612095fa2ee4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Boal_Old_Small
+    second: {fileID: 2100000, guid: 1e288d351775a574e804ee1f19b558fb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Bow_02
+    second: {fileID: 2100000, guid: 5a3d36c6833034c4ca172afabffb9aeb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Bow_02_Arrow
+    second: {fileID: 2100000, guid: 9c6b434f2388a5a41951b9f92c3ce1d5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Candles_Wax
+    second: {fileID: 2100000, guid: 886370135bab7864db4f45b09a528f4b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_CliffPiece_B_destroyed
+    second: {fileID: 2100000, guid: a6a583bcf84f4144fbc2204517a50590, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_CliffPiece_C_destroyed
+    second: {fileID: 2100000, guid: aa96d927888301548ab98140c97905ef, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_CliffPiece_D
+    second: {fileID: 2100000, guid: adbb265dc8e58094c968ab630bd89974, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_CliffPiece_E_destroyed
+    second: {fileID: 2100000, guid: c56c6636c40c22345ad85a13d8302bec, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_CliffPiece_F
+    second: {fileID: 2100000, guid: fa1937ac0fd65db489dceb6626539b5e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_CliffPiece_G
+    second: {fileID: 2100000, guid: 496752373fc64d648a3eb1d00752c6ad, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_CliffPiece_H
+    second: {fileID: 2100000, guid: 08af13ef5ae2c6f4aa43bcb5e6350ae8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_DeadCornifer
+    second: {fileID: 2100000, guid: 33ca3e3a49acbcf48bcfc45591b5e11d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_DeadGrass
+    second: {fileID: 2100000, guid: 0d4d8413a3503184cbbef67a50ba5101, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_DockScaffold
+    second: {fileID: 2100000, guid: c50c54f24eea36f4082f99397b59de16, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_FloorTiles
+    second: {fileID: 2100000, guid: 0324273b5e986014ebbf42a072eab57b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Helmet_Warrior
+    second: {fileID: 2100000, guid: 099501bf701d18c4394dcb89cc2ace0b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Lyre_Pedestal
+    second: {fileID: 2100000, guid: fb515f981f5dc924aacef08588978c94, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Necropolis_Building_Large_B
+    second: {fileID: 2100000, guid: 9b0d83b2bd138c544a41aadadbfa08c6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Necropolis_Building_Small_A_destroyed
+    second: {fileID: 2100000, guid: 6cd9fde3d12bc3e42ad8ef6ad6f8d33e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Necropolis_Building_Small_D
+    second: {fileID: 2100000, guid: 65ae53422f37e75449ad204cc28eb98b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Pedestal_Stone
+    second: {fileID: 2100000, guid: 2311235ec96d5324195265af99adcec7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Pillar_Marble
+    second: {fileID: 2100000, guid: 5a2898903f9e342468ffda7bd1d10a10, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_RockSand
+    second: {fileID: 2100000, guid: 12e74d5b5c849bc42bf4506b9a37627d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_RockSand_1
+    second: {fileID: 2100000, guid: cf882b223ad9fb14db8939e68d835a51, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Rubble
+    second: {fileID: 2100000, guid: 2731aadb91d78554386728304d8e18a9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Rubble_Large
+    second: {fileID: 2100000, guid: bc36fd8e445a0594ea13afbb3f8f2afe, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Scaffold_1
+    second: {fileID: 2100000, guid: 471417488238da54a9529dcd848be114, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Skelleton
+    second: {fileID: 2100000, guid: d2cea93f8f7069a498601642f6131dea, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Skull
+    second: {fileID: 2100000, guid: 10c9787d389832d4dbe2264b43e0e576, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Temple_Trimsheet
+    second: {fileID: 2100000, guid: 9c85bfc2bb49fde4d8fa35166fac331c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Tomb
+    second: {fileID: 2100000, guid: 5dc857dc7473f364e985fef1e4688105, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: No Name
+    second: {fileID: 2100000, guid: 982beb203e7e38542b3d1f76289af6c7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lambert1
+    second: {fileID: 2100000, guid: 982beb203e7e38542b3d1f76289af6c7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lambert1.001
+    second: {fileID: 2100000, guid: 982beb203e7e38542b3d1f76289af6c7, type: 2}
+  materials:
+    materialImportMode: 1
+    materialName: 1
+    materialSearch: 2
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 0
+    importBlendShapes: 0
+    importCameras: 0
+    importLights: 0
+    fileIdsGeneration: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 1
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 0
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 0
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 0
+  humanoidOversampling: 1
+  avatarSetup: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
