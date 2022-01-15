@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class GeminiPuzzle : MonoBehaviour
 {
-    [SerializeField] private Transform emptySpace = null;
+    /*[SerializeField] private Transform emptySpace = null;
     private Camera _camera;
     [SerializeField] private Tiles[] tiles;
 
@@ -51,7 +51,7 @@ public class GeminiPuzzle : MonoBehaviour
                 tiles[randomIndex].targetPosition = lastPos;
             }
         }
-    }
+    }*/
     
 
 }
