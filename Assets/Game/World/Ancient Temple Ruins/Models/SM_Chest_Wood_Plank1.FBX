@@ -1,0 +1,548 @@
+; FBX 7.4.0 project file
+; ----------------------------------------------------
+
+FBXHeaderExtension:  {
+	FBXHeaderVersion: 1003
+	FBXVersion: 7400
+	CreationTimeStamp:  {
+		Version: 1000
+		Year: 2019
+		Month: 5
+		Day: 16
+		Hour: 15
+		Minute: 19
+		Second: 19
+		Millisecond: 626
+	}
+	Creator: "FBX SDK/FBX Plugins version 2018.1"
+	SceneInfo: "SceneInfo::GlobalInfo", "UserData" {
+		Type: "UserData"
+		Version: 100
+		MetaData:  {
+			Version: 100
+			Title: ""
+			Subject: ""
+			Author: ""
+			Keywords: ""
+			Revision: ""
+			Comment: ""
+		}
+		Properties70:  {
+			P: "DocumentUrl", "KString", "Url", "", "D:\JourneyForElysium\JFE-Greyboxing\Assets\_JFE_Assets\Models\SM_Chest_Wood_Plank1.FBX"
+			P: "SrcDocumentUrl", "KString", "Url", "", "D:\JourneyForElysium\JFE-Greyboxing\Assets\_JFE_Assets\Models\SM_Chest_Wood_Plank1.FBX"
+			P: "Original", "Compound", "", ""
+			P: "Original|ApplicationVendor", "KString", "", "", "Autodesk"
+			P: "Original|ApplicationName", "KString", "", "", "3ds Max"
+			P: "Original|ApplicationVersion", "KString", "", "", "2018"
+			P: "Original|DateTime_GMT", "DateTime", "", "", "16/05/2019 13:19:19.625"
+			P: "Original|FileName", "KString", "", "", "D:\JourneyForElysium\JFE-Greyboxing\Assets\_JFE_Assets\Models\SM_Chest_Wood_Plank1.FBX"
+			P: "LastSaved", "Compound", "", ""
+			P: "LastSaved|ApplicationVendor", "KString", "", "", "Autodesk"
+			P: "LastSaved|ApplicationName", "KString", "", "", "3ds Max"
+			P: "LastSaved|ApplicationVersion", "KString", "", "", "2018"
+			P: "LastSaved|DateTime_GMT", "DateTime", "", "", "16/05/2019 13:19:19.625"
+			P: "Original|ApplicationActiveProject", "KString", "", "", "C:\Users\San\Documents\3dsMax"
+			P: "Original|ApplicationNativeFile", "KString", "", "", "D:\Users\San\Desktop\Work\Max\Blockout_Fisherman_Hut_Items02.max"
+		}
+	}
+}
+GlobalSettings:  {
+	Version: 1000
+	Properties70:  {
+		P: "UpAxis", "int", "Integer", "",2
+		P: "UpAxisSign", "int", "Integer", "",1
+		P: "FrontAxis", "int", "Integer", "",1
+		P: "FrontAxisSign", "int", "Integer", "",-1
+		P: "CoordAxis", "int", "Integer", "",0
+		P: "CoordAxisSign", "int", "Integer", "",1
+		P: "OriginalUpAxis", "int", "Integer", "",2
+		P: "OriginalUpAxisSign", "int", "Integer", "",1
+		P: "UnitScaleFactor", "double", "Number", "",1
+		P: "OriginalUnitScaleFactor", "double", "Number", "",1
+		P: "AmbientColor", "ColorRGB", "Color", "",0,0,0
+		P: "DefaultCamera", "KString", "", "", "Producer Perspective"
+		P: "TimeMode", "enum", "", "",6
+		P: "TimeProtocol", "enum", "", "",2
+		P: "SnapOnFrameMode", "enum", "", "",0
+		P: "TimeSpanStart", "KTime", "Time", "",0
+		P: "TimeSpanStop", "KTime", "Time", "",76976930000
+		P: "CustomFrameRate", "double", "Number", "",-1
+		P: "TimeMarker", "Compound", "", ""
+		P: "CurrentTimeMarker", "int", "Integer", "",-1
+	}
+}
+
+; Documents Description
+;------------------------------------------------------------------
+
+Documents:  {
+	Count: 1
+	Document: 2131424752000, "", "Scene" {
+		Properties70:  {
+			P: "SourceObject", "object", "", ""
+			P: "ActiveAnimStackName", "KString", "", "", ""
+		}
+		RootNode: 0
+	}
+}
+
+; Document References
+;------------------------------------------------------------------
+
+References:  {
+}
+
+; Object definitions
+;------------------------------------------------------------------
+
+Definitions:  {
+	Version: 100
+	Count: 7
+	ObjectType: "GlobalSettings" {
+		Count: 1
+	}
+	ObjectType: "AnimationStack" {
+		Count: 1
+		PropertyTemplate: "FbxAnimStack" {
+			Properties70:  {
+				P: "Description", "KString", "", "", ""
+				P: "LocalStart", "KTime", "Time", "",0
+				P: "LocalStop", "KTime", "Time", "",0
+				P: "ReferenceStart", "KTime", "Time", "",0
+				P: "ReferenceStop", "KTime", "Time", "",0
+			}
+		}
+	}
+	ObjectType: "AnimationLayer" {
+		Count: 1
+		PropertyTemplate: "FbxAnimLayer" {
+			Properties70:  {
+				P: "Weight", "Number", "", "A",100
+				P: "Mute", "bool", "", "",0
+				P: "Solo", "bool", "", "",0
+				P: "Lock", "bool", "", "",0
+				P: "Color", "ColorRGB", "Color", "",0.8,0.8,0.8
+				P: "BlendMode", "enum", "", "",0
+				P: "RotationAccumulationMode", "enum", "", "",0
+				P: "ScaleAccumulationMode", "enum", "", "",0
+				P: "BlendModeBypass", "ULongLong", "", "",0
+			}
+		}
+	}
+	ObjectType: "Model" {
+		Count: 1
+		PropertyTemplate: "FbxNode" {
+			Properties70:  {
+				P: "QuaternionInterpolate", "enum", "", "",0
+				P: "RotationOffset", "Vector3D", "Vector", "",0,0,0
+				P: "RotationPivot", "Vector3D", "Vector", "",0,0,0
+				P: "ScalingOffset", "Vector3D", "Vector", "",0,0,0
+				P: "ScalingPivot", "Vector3D", "Vector", "",0,0,0
+				P: "TranslationActive", "bool", "", "",0
+				P: "TranslationMin", "Vector3D", "Vector", "",0,0,0
+				P: "TranslationMax", "Vector3D", "Vector", "",0,0,0
+				P: "TranslationMinX", "bool", "", "",0
+				P: "TranslationMinY", "bool", "", "",0
+				P: "TranslationMinZ", "bool", "", "",0
+				P: "TranslationMaxX", "bool", "", "",0
+				P: "TranslationMaxY", "bool", "", "",0
+				P: "TranslationMaxZ", "bool", "", "",0
+				P: "RotationOrder", "enum", "", "",0
+				P: "RotationSpaceForLimitOnly", "bool", "", "",0
+				P: "RotationStiffnessX", "double", "Number", "",0
+				P: "RotationStiffnessY", "double", "Number", "",0
+				P: "RotationStiffnessZ", "double", "Number", "",0
+				P: "AxisLen", "double", "Number", "",10
+				P: "PreRotation", "Vector3D", "Vector", "",0,0,0
+				P: "PostRotation", "Vector3D", "Vector", "",0,0,0
+				P: "RotationActive", "bool", "", "",0
+				P: "RotationMin", "Vector3D", "Vector", "",0,0,0
+				P: "RotationMax", "Vector3D", "Vector", "",0,0,0
+				P: "RotationMinX", "bool", "", "",0
+				P: "RotationMinY", "bool", "", "",0
+				P: "RotationMinZ", "bool", "", "",0
+				P: "RotationMaxX", "bool", "", "",0
+				P: "RotationMaxY", "bool", "", "",0
+				P: "RotationMaxZ", "bool", "", "",0
+				P: "InheritType", "enum", "", "",0
+				P: "ScalingActive", "bool", "", "",0
+				P: "ScalingMin", "Vector3D", "Vector", "",0,0,0
+				P: "ScalingMax", "Vector3D", "Vector", "",1,1,1
+				P: "ScalingMinX", "bool", "", "",0
+				P: "ScalingMinY", "bool", "", "",0
+				P: "ScalingMinZ", "bool", "", "",0
+				P: "ScalingMaxX", "bool", "", "",0
+				P: "ScalingMaxY", "bool", "", "",0
+				P: "ScalingMaxZ", "bool", "", "",0
+				P: "GeometricTranslation", "Vector3D", "Vector", "",0,0,0
+				P: "GeometricRotation", "Vector3D", "Vector", "",0,0,0
+				P: "GeometricScaling", "Vector3D", "Vector", "",1,1,1
+				P: "MinDampRangeX", "double", "Number", "",0
+				P: "MinDampRangeY", "double", "Number", "",0
+				P: "MinDampRangeZ", "double", "Number", "",0
+				P: "MaxDampRangeX", "double", "Number", "",0
+				P: "MaxDampRangeY", "double", "Number", "",0
+				P: "MaxDampRangeZ", "double", "Number", "",0
+				P: "MinDampStrengthX", "double", "Number", "",0
+				P: "MinDampStrengthY", "double", "Number", "",0
+				P: "MinDampStrengthZ", "double", "Number", "",0
+				P: "MaxDampStrengthX", "double", "Number", "",0
+				P: "MaxDampStrengthY", "double", "Number", "",0
+				P: "MaxDampStrengthZ", "double", "Number", "",0
+				P: "PreferedAngleX", "double", "Number", "",0
+				P: "PreferedAngleY", "double", "Number", "",0
+				P: "PreferedAngleZ", "double", "Number", "",0
+				P: "LookAtProperty", "object", "", ""
+				P: "UpVectorProperty", "object", "", ""
+				P: "Show", "bool", "", "",1
+				P: "NegativePercentShapeSupport", "bool", "", "",1
+				P: "DefaultAttributeIndex", "int", "Integer", "",-1
+				P: "Freeze", "bool", "", "",0
+				P: "LODBox", "bool", "", "",0
+				P: "Lcl Translation", "Lcl Translation", "", "A",0,0,0
+				P: "Lcl Rotation", "Lcl Rotation", "", "A",0,0,0
+				P: "Lcl Scaling", "Lcl Scaling", "", "A",1,1,1
+				P: "Visibility", "Visibility", "", "A",1
+				P: "Visibility Inheritance", "Visibility Inheritance", "", "",1
+			}
+		}
+	}
+	ObjectType: "Geometry" {
+		Count: 1
+		PropertyTemplate: "FbxMesh" {
+			Properties70:  {
+				P: "Color", "ColorRGB", "Color", "",0.8,0.8,0.8
+				P: "BBoxMin", "Vector3D", "Vector", "",0,0,0
+				P: "BBoxMax", "Vector3D", "Vector", "",0,0,0
+				P: "Primary Visibility", "bool", "", "",1
+				P: "Casts Shadows", "bool", "", "",1
+				P: "Receive Shadows", "bool", "", "",1
+			}
+		}
+	}
+	ObjectType: "Material" {
+		Count: 1
+		PropertyTemplate: "FbxSurfaceMaterial" {
+			Properties70:  {
+				P: "ShadingModel", "KString", "", "", "Unknown"
+				P: "MultiLayer", "bool", "", "",0
+			}
+		}
+	}
+	ObjectType: "CollectionExclusive" {
+		Count: 1
+		PropertyTemplate: "FbxDisplayLayer" {
+			Properties70:  {
+				P: "Color", "ColorRGB", "Color", "",0.8,0.8,0.8
+				P: "Show", "bool", "", "",1
+				P: "Freeze", "bool", "", "",0
+				P: "LODBox", "bool", "", "",0
+			}
+		}
+	}
+}
+
+; Object properties
+;------------------------------------------------------------------
+
+Objects:  {
+	Geometry: 2131217740304, "Geometry::", "Mesh" {
+		Properties70:  {
+			P: "Color", "ColorRGB", "Color", "",0.450980392156863,0.450980392156863,0.450980392156863
+		}
+		Vertices: *24 {
+			a: -55.6156616210938,-0.941722869873047,216.633071899414,-31.0364303588867,-0.941722869873047,216.065200805664,-35.0539169311523,-0.941730499267578,430.511962890625,-59.6331520080566,-0.941730499267578,431.079833984375,-55.6156616210938,5.75734329223633,216.633071899414,-31.0364227294922,5.75734329223633,216.065200805664,-35.0539093017578,5.7573356628418,430.511962890625,-59.6331558227539,5.7573356628418,431.079833984375
+		} 
+		PolygonVertexIndex: *24 {
+			a: 0,1,2,-4,1,0,4,-6,2,1,5,-7,3,2,6,-8,0,3,7,-5,4,7,6,-6
+		} 
+		Edges: *12 {
+			a: 0,1,2,3,5,6,9,10,13,14,17,18
+		} 
+		GeometryVersion: 124
+		LayerElementNormal: 0 {
+			Version: 102
+			Name: ""
+			MappingInformationType: "ByPolygonVertex"
+			ReferenceInformationType: "Direct"
+			Normals: *72 {
+				a: -8.22318380055975e-10,-1,-3.55925102724086e-08,-8.22318435567126e-10,-1,-3.55925102724086e-08,-8.22318380055975e-10,-1,-3.55925102724086e-08,-8.22318435567126e-10,-1,-3.55925102724086e-08,-0.0230975281447172,1.30281900823093e-08,-0.99973326921463,-0.0230975281447172,1.30281891941308e-08,-0.999733209609985,-0.0230975281447172,1.30281891941308e-08,-0.999733209609985,-0.0230975244194269,1.3028187417774e-08,-0.999733150005341,0.999824523925781,-1.14692181796272e-06,0.0187309011816978,0.999824523925781,-1.14692181796272e-06,0.0187309011816978,0.999824523925781,-1.14692181796272e-06,0.0187309011816978,0.999824523925781,-1.14692181796272e-06,0.0187309011816978,0.0230975244194269,-7.2378822935093e-09,0.99973326921463,0.0230975244194269,-7.2378822935093e-09,0.99973326921463,0.0230975244194269,-7.23788184942009e-09,0.999733209609985,0.0230975262820721,-7.23788184942009e-09,0.99973326921463,-0.999824523925781,-2.8673048291239e-07,-0.0187309291213751,-0.999824523925781,-2.8673048291239e-07,-0.0187309291213751,-0.999824523925781,-2.8673048291239e-07,-0.0187309291213751,-0.999824523925781,-2.8673048291239e-07,-0.0187309291213751,8.22318102500219e-10,1,3.55925102724086e-08,8.2231815801137e-10,1,3.55925102724086e-08,8.22318102500219e-10,1,3.55925102724086e-08,8.2231815801137e-10,1,3.55925102724086e-08
+			} 
+			NormalsW: *24 {
+				a: 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+			} 
+		}
+		LayerElementBinormal: 0 {
+			Version: 102
+			Name: "UVChannel_1"
+			MappingInformationType: "ByPolygonVertex"
+			ReferenceInformationType: "Direct"
+			Binormals: *72 {
+				a: -2.5021669314348e-09,-3.5592510270351e-08,0.999999999999999,-2.5021669314348e-09,-3.5592510270351e-08,0.999999999999999,-2.5021669314348e-09,-3.5592510270351e-08,0.999999999999999,2.57771256661332e-07,-3.55925104843775e-08,0.999999999999966,3.00919029129349e-10,1,1.30247136886761e-08,3.00919026546005e-10,1,1.30247135768609e-08,3.00919026546005e-10,1,1.30247135768609e-08,3.00918910118411e-10,1,1.30247125803818e-08,-0.0187309018812492,2.13321434540341e-08,0.999824561267983,-0.0187309018812492,2.13321434540341e-08,0.999824561267983,-0.0187309018812492,2.13321434540341e-08,0.999824561267983,-0.0187309018812492,2.13321434540342e-08,0.999824561267983,-1.6717718741396e-10,-1,-7.23595096522449e-09,-1.6717718741396e-10,-1,-7.23595096522449e-09,-1.67177187118475e-10,-1,-7.23595095243498e-09,-1.67177099353273e-10,-1,-7.23595052273985e-09,2.87659432964314e-07,-0.999999999999958,-4.6899579739787e-08,2.87659432964314e-07,-0.999999999999958,-4.6899579739787e-08,2.87659432964314e-07,-0.999999999999958,-4.6899579739787e-08,2.87502948862665e-07,-0.999999999999958,-3.85467296798917e-08,-0.0348993177366134,-3.55421301585277e-08,0.999390833268706,-0.0348993177366134,-3.55421301565904e-08,0.999390833268706,-0.0348993177366134,-3.55421301585277e-08,0.999390833268706,-0.0348992922921171,-3.55421302091391e-08,0.999390834157242
+			} 
+			BinormalsW: *24 {
+				a: 1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+			} 
+
+		}
+		LayerElementTangent: 0 {
+			Version: 102
+			Name: "UVChannel_1"
+			MappingInformationType: "ByPolygonVertex"
+			ReferenceInformationType: "Direct"
+			Tangents: *72 {
+				a: 1,-8.22318469114376e-10,2.50216690216642e-09,1,-8.22318524625528e-10,2.50216690216642e-09,1,-8.22318469114376e-10,2.50216690216642e-09,0.999999999999967,-8.22309260840997e-10,-2.577712566906e-07,-0.999733216538204,7.3759301095702e-17,0.0230975269276968,-0.999733216506406,5.58231245105709e-17,0.02309752830405,-0.999733216506406,5.58231245105709e-17,0.02309752830405,-0.999733216560629,-6.97253237255374e-18,0.0230975259570996,1.14712021595111e-06,0.999999999999342,1.5447985870801e-10,1.14712021595111e-06,0.999999999999342,1.5447985870801e-10,1.14712021595111e-06,0.999999999999342,1.5447985870801e-10,1.14712021595111e-06,0.999999999999342,1.54479858708013e-10,-0.999733216624226,4.19944185453963e-17,0.0230975232043941,-0.999733216624226,4.19944185453963e-17,0.0230975232043941,-0.999733216592428,3.20298791943383e-17,0.0230975245807471,-0.999733216581215,-4.93004924173206e-17,0.0230975250660468,0.0187309298111338,5.22794803608127e-08,-0.999824560744738,0.0187309298111338,5.22794803608127e-08,-0.999824560744738,0.0187309298111338,5.22794803608127e-08,-0.999824560744738,0.0187309298111375,4.39251646259874e-08,-0.999824560744738,-0.999390833268706,2.0639714987101e-09,-0.0348993177366133,-0.999390833268706,2.06397155418743e-09,-0.0348993177366133,-0.999390833268706,2.0639714987101e-09,-0.0348993177366133,-0.999390834157243,2.0639706492846e-09,-0.0348992922921171
+			} 
+			TangentsW: *24 {
+				a: 1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+			} 
+		}
+		LayerElementUV: 0 {
+			Version: 101
+			Name: "UVChannel_1"
+			MappingInformationType: "ByPolygonVertex"
+			ReferenceInformationType: "IndexToDirect"
+			UV: *48 {
+				a: 0.166360482573509,0.00168060255236924,0.000500000023748726,0.899845004081726,0.00050002580974251,0.453932523727417,0.21746064722538,0.000500000023748726,0.665891051292419,0.0335192419588566,0.0144273657351732,0.453932523727417,0.0144273396581411,0.899845004081726,0.117698714137077,0.871700406074524,0.0665985941886902,0.802210807800293,0.117698736488819,0.802210807800293,0.0587399750947952,0.00823621917515993,0.117698736488819,0.8161381483078,0.220056757330894,0.033519234508276,0.0515278577804565,0.454090356826782,0.220056757330894,0.0195918940007687,0.0665985569357872,0.871700406074524,0.000500000023748726,0.451127111911774,0.0665985569357872,0.857773065567017,0.209108293056488,0.446334213018417,0.158008128404617,0.447514802217484,0.665891051292419,0.019591897726059,0.117698736488819,0.857773065567017,0.0665985718369484,0.8161381483078,0.00771213229745626,0.00527297612279654
+			} 
+			UVIndex: *24 {
+				a: 0,3,18,19,8,9,11,22,1,2,5,6,7,15,17,21,4,12,14,20,10,13,16,23
+			} 
+		}
+		LayerElementSmoothing: 0 {
+			Version: 102
+			Name: ""
+			MappingInformationType: "ByPolygon"
+			ReferenceInformationType: "Direct"
+			Smoothing: *6 {
+				a: 4,0,0,0,0,0
+			} 
+		}
+		LayerElementMaterial: 0 {
+			Version: 101
+			Name: ""
+			MappingInformationType: "AllSame"
+			ReferenceInformationType: "IndexToDirect"
+			Materials: *1 {
+				a: 0
+			} 
+		}
+		Layer: 0 {
+			Version: 100
+			LayerElement:  {
+				Type: "LayerElementNormal"
+				TypedIndex: 0
+			}
+			LayerElement:  {
+				Type: "LayerElementBinormal"
+				TypedIndex: 0
+			}
+			LayerElement:  {
+				Type: "LayerElementTangent"
+				TypedIndex: 0
+			}
+			LayerElement:  {
+				Type: "LayerElementMaterial"
+				TypedIndex: 0
+			}
+			LayerElement:  {
+				Type: "LayerElementSmoothing"
+				TypedIndex: 0
+			}
+			LayerElement:  {
+				Type: "LayerElementUV"
+				TypedIndex: 0
+			}
+		}
+	}
+	Model: 2130490444528, "Model::Chest_Wood_Plank1", "Mesh" {
+		Version: 232
+		Properties70:  {
+			P: "InheritType", "enum", "", "",1
+			P: "ScalingMax", "Vector3D", "Vector", "",0,0,0
+			P: "GeometricTranslation", "Vector3D", "Vector", "",45.3347930908203,-323.572509765625,2.40780639648438
+			P: "GeometricRotation", "Vector3D", "Vector", "",-90,-0,0
+			P: "DefaultAttributeIndex", "int", "Integer", "",0
+			P: "Lcl Rotation", "Lcl Rotation", "", "A",90.0000025044781,-0,0
+			P: "MaxHandle", "int", "Integer", "UH",718
+		}
+		Shading: T
+		Culling: "CullingOff"
+	}
+	Material: 2131436011120, "Material::01 - Default", "" {
+		Version: 102
+		ShadingModel: "unknown"
+		MultiLayer: 0
+		Properties70:  {
+			P: "ShadingModel", "KString", "", "", "unknown"
+			P: "AmbientColor", "ColorRGB", "Color", "",0,0,0
+			P: "DiffuseColor", "ColorRGB", "Color", "",0.933333396911621,0.933333396911621,0.933333396911621
+			P: "SpecularColor", "ColorRGB", "Color", "",1,1,1
+			P: "SpecularFactor", "double", "Number", "",0.829999983310699
+			P: "ShininessExponent", "double", "Number", "",16
+			P: "TransparencyFactor", "double", "Number", "",0
+			P: "EmissiveColor", "ColorRGB", "Color", "",0,0,0
+			P: "EmissiveFactor", "double", "Number", "",0
+			P: "3dsMax", "Compound", "", ""
+			P: "3dsMax|ClassIDa", "int", "Integer", "",2121471519
+			P: "3dsMax|ClassIDb", "int", "Integer", "",1660373836
+			P: "3dsMax|SuperClassID", "int", "Integer", "",3072
+			P: "3dsMax|ai_standard_surface Parameter Wrapper", "Compound", "", ""
+			P: "3dsMax|ai_standard_surface Parameter Wrapper|TheList", "Reference", "", "A"
+			P: "3dsMax|ai_standard_surface Parameter Wrapper|Shader Version", "Integer", "", "A",0
+			P: "3dsMax|ai_standard_surface Parameters/Connections", "Compound", "", ""
+			P: "3dsMax|ai_standard_surface Parameters/Connections|base", "Float", "", "A",0.8
+			P: "3dsMax|ai_standard_surface Parameters/Connections|base.connected", "Bool", "", "A",1
+			P: "3dsMax|ai_standard_surface Parameters/Connections|base.shader", "Reference", "", "A"
+			P: "3dsMax|ai_standard_surface Parameters/Connections|base_color", "Color", "", "A",0.933333396911621,0.933333396911621,0.933333396911621
+			P: "3dsMax|ai_standard_surface Parameters/Connections|base_color.connected", "Bool", "", "A",1
+			P: "3dsMax|ai_standard_surface Parameters/Connections|base_color.shader", "Reference", "", "A"
+			P: "3dsMax|ai_standard_surface Parameters/Connections|diffuse_roughness", "Float", "", "A",0
+			P: "3dsMax|ai_standard_surface Parameters/Connections|diffuse_roughness.connected", "Bool", "", "A",1
+			P: "3dsMax|ai_standard_surface Parameters/Connections|diffuse_roughness.shader", "Reference", "", "A"
+			P: "3dsMax|ai_standard_surface Parameters/Connections|specular", "Float", "", "A",0.83
+			P: "3dsMax|ai_standard_surface Parameters/Connections|specular.connected", "Bool", "", "A",1
+			P: "3dsMax|ai_standard_surface Parameters/Connections|specular.shader", "Reference", "", "A"
+			P: "3dsMax|ai_standard_surface Parameters/Connections|specular_color", "Color", "", "A",1,1,1
+			P: "3dsMax|ai_standard_surface Parameters/Connections|specular_color.connected", "Bool", "", "A",1
+			P: "3dsMax|ai_standard_surface Parameters/Connections|specular_color.shader", "Reference", "", "A"
+			P: "3dsMax|ai_standard_surface Parameters/Connections|specular_roughness", "Float", "", "A",0.4
+			P: "3dsMax|ai_standard_surface Parameters/Connections|specular_roughness.connected", "Bool", "", "A",1
+			P: "3dsMax|ai_standard_surface Parameters/Connections|specular_roughness.shader", "Reference", "", "A"
+			P: "3dsMax|ai_standard_surface Parameters/Connections|specular_IOR", "Float", "", "A",1.52
+			P: "3dsMax|ai_standard_surface Parameters/Connections|specular_IOR.connected", "Bool", "", "A",1
+			P: "3dsMax|ai_standard_surface Parameters/Connections|specular_IOR.shader", "Reference", "", "A"
+			P: "3dsMax|ai_standard_surface Parameters/Connections|specular_anisotropy", "Float", "", "A",0
+			P: "3dsMax|ai_standard_surface Parameters/Connections|specular_anisotropy.connected", "Bool", "", "A",1
+			P: "3dsMax|ai_standard_surface Parameters/Connections|specular_anisotropy.shader", "Reference", "", "A"
+			P: "3dsMax|ai_standard_surface Parameters/Connections|specular_rotation", "Float", "", "A",0
+			P: "3dsMax|ai_standard_surface Parameters/Connections|specular_rotation.connected", "Bool", "", "A",1
+			P: "3dsMax|ai_standard_surface Parameters/Connections|specular_rotation.shader", "Reference", "", "A"
+			P: "3dsMax|ai_standard_surface Parameters/Connections|metalness", "Float", "", "A",0
+			P: "3dsMax|ai_standard_surface Parameters/Connections|metalness.connected", "Bool", "", "A",1
+			P: "3dsMax|ai_standard_surface Parameters/Connections|metalness.shader", "Reference", "", "A"
+			P: "3dsMax|ai_standard_surface Parameters/Connections|transmission", "Float", "", "A",0
+			P: "3dsMax|ai_standard_surface Parameters/Connections|transmission.connected", "Bool", "", "A",1
+			P: "3dsMax|ai_standard_surface Parameters/Connections|transmission.shader", "Reference", "", "A"
+			P: "3dsMax|ai_standard_surface Parameters/Connections|transmission_color", "Color", "", "A",1,1,1
+			P: "3dsMax|ai_standard_surface Parameters/Connections|transmission_color.connected", "Bool", "", "A",1
+			P: "3dsMax|ai_standard_surface Parameters/Connections|transmission_color.shader", "Reference", "", "A"
+			P: "3dsMax|ai_standard_surface Parameters/Connections|transmission_depth", "Float", "", "A",0
+			P: "3dsMax|ai_standard_surface Parameters/Connections|transmission_scatter", "Color", "", "A",0,0,0
+			P: "3dsMax|ai_standard_surface Parameters/Connections|transmission_scatter.connected", "Bool", "", "A",1
+			P: "3dsMax|ai_standard_surface Parameters/Connections|transmission_scatter.shader", "Reference", "", "A"
+			P: "3dsMax|ai_standard_surface Parameters/Connections|transmission_scatter_anisotropy", "Float", "", "A",0
+			P: "3dsMax|ai_standard_surface Parameters/Connections|transmission_scatter_anisotropy.connected", "Bool", "", "A",1
+			P: "3dsMax|ai_standard_surface Parameters/Connections|transmission_scatter_anisotropy.shader", "Reference", "", "A"
+			P: "3dsMax|ai_standard_surface Parameters/Connections|transmission_dispersion", "Float", "", "A",0
+			P: "3dsMax|ai_standard_surface Parameters/Connections|transmission_dispersion.connected", "Bool", "", "A",1
+			P: "3dsMax|ai_standard_surface Parameters/Connections|transmission_dispersion.shader", "Reference", "", "A"
+			P: "3dsMax|ai_standard_surface Parameters/Connections|transmission_extra_roughness", "Float", "", "A",0
+			P: "3dsMax|ai_standard_surface Parameters/Connections|transmission_extra_roughness.connected", "Bool", "", "A",1
+			P: "3dsMax|ai_standard_surface Parameters/Connections|transmission_extra_roughness.shader", "Reference", "", "A"
+			P: "3dsMax|ai_standard_surface Parameters/Connections|subsurface", "Float", "", "A",0
+			P: "3dsMax|ai_standard_surface Parameters/Connections|subsurface.connected", "Bool", "", "A",1
+			P: "3dsMax|ai_standard_surface Parameters/Connections|subsurface.shader", "Reference", "", "A"
+			P: "3dsMax|ai_standard_surface Parameters/Connections|subsurface_color", "Color", "", "A",1,1,1
+			P: "3dsMax|ai_standard_surface Parameters/Connections|subsurface_color.connected", "Bool", "", "A",1
+			P: "3dsMax|ai_standard_surface Parameters/Connections|subsurface_color.shader", "Reference", "", "A"
+			P: "3dsMax|ai_standard_surface Parameters/Connections|subsurface_radius", "Color", "", "A",1,1,1
+			P: "3dsMax|ai_standard_surface Parameters/Connections|subsurface_radius.connected", "Bool", "", "A",1
+			P: "3dsMax|ai_standard_surface Parameters/Connections|subsurface_radius.shader", "Reference", "", "A"
+			P: "3dsMax|ai_standard_surface Parameters/Connections|subsurface_scale", "Float", "", "A",1
+			P: "3dsMax|ai_standard_surface Parameters/Connections|subsurface_scale.connected", "Bool", "", "A",1
+			P: "3dsMax|ai_standard_surface Parameters/Connections|subsurface_scale.shader", "Reference", "", "A"
+			P: "3dsMax|ai_standard_surface Parameters/Connections|thin_walled", "Bool", "", "A",0
+			P: "3dsMax|ai_standard_surface Parameters/Connections|normal", "Vector", "", "A",0,0,0
+			P: "3dsMax|ai_standard_surface Parameters/Connections|normal.connected", "Bool", "", "A",1
+			P: "3dsMax|ai_standard_surface Parameters/Connections|normal.shader", "Reference", "", "A"
+			P: "3dsMax|ai_standard_surface Parameters/Connections|tangent", "Vector", "", "A",0,0,0
+			P: "3dsMax|ai_standard_surface Parameters/Connections|tangent.connected", "Bool", "", "A",1
+			P: "3dsMax|ai_standard_surface Parameters/Connections|tangent.shader", "Reference", "", "A"
+			P: "3dsMax|ai_standard_surface Parameters/Connections|coat", "Float", "", "A",0
+			P: "3dsMax|ai_standard_surface Parameters/Connections|coat.connected", "Bool", "", "A",1
+			P: "3dsMax|ai_standard_surface Parameters/Connections|coat.shader", "Reference", "", "A"
+			P: "3dsMax|ai_standard_surface Parameters/Connections|coat_color", "Color", "", "A",1,1,1
+			P: "3dsMax|ai_standard_surface Parameters/Connections|coat_color.connected", "Bool", "", "A",1
+			P: "3dsMax|ai_standard_surface Parameters/Connections|coat_color.shader", "Reference", "", "A"
+			P: "3dsMax|ai_standard_surface Parameters/Connections|coat_roughness", "Float", "", "A",0.1
+			P: "3dsMax|ai_standard_surface Parameters/Connections|coat_roughness.connected", "Bool", "", "A",1
+			P: "3dsMax|ai_standard_surface Parameters/Connections|coat_roughness.shader", "Reference", "", "A"
+			P: "3dsMax|ai_standard_surface Parameters/Connections|coat_IOR", "Float", "", "A",1.5
+			P: "3dsMax|ai_standard_surface Parameters/Connections|coat_IOR.connected", "Bool", "", "A",1
+			P: "3dsMax|ai_standard_surface Parameters/Connections|coat_IOR.shader", "Reference", "", "A"
+			P: "3dsMax|ai_standard_surface Parameters/Connections|coat_normal", "Vector", "", "A",0,0,0
+			P: "3dsMax|ai_standard_surface Parameters/Connections|coat_normal.connected", "Bool", "", "A",1
+			P: "3dsMax|ai_standard_surface Parameters/Connections|coat_normal.shader", "Reference", "", "A"
+			P: "3dsMax|ai_standard_surface Parameters/Connections|coat_affect_color", "Float", "", "A",0
+			P: "3dsMax|ai_standard_surface Parameters/Connections|coat_affect_color.connected", "Bool", "", "A",1
+			P: "3dsMax|ai_standard_surface Parameters/Connections|coat_affect_color.shader", "Reference", "", "A"
+			P: "3dsMax|ai_standard_surface Parameters/Connections|coat_affect_roughness", "Float", "", "A",0
+			P: "3dsMax|ai_standard_surface Parameters/Connections|coat_affect_roughness.connected", "Bool", "", "A",1
+			P: "3dsMax|ai_standard_surface Parameters/Connections|coat_affect_roughness.shader", "Reference", "", "A"
+			P: "3dsMax|ai_standard_surface Parameters/Connections|thin_film_thickness", "Float", "", "A",0
+			P: "3dsMax|ai_standard_surface Parameters/Connections|thin_film_thickness.connected", "Bool", "", "A",1
+			P: "3dsMax|ai_standard_surface Parameters/Connections|thin_film_thickness.shader", "Reference", "", "A"
+			P: "3dsMax|ai_standard_surface Parameters/Connections|thin_film_IOR", "Float", "", "A",1.5
+			P: "3dsMax|ai_standard_surface Parameters/Connections|thin_film_IOR.connected", "Bool", "", "A",1
+			P: "3dsMax|ai_standard_surface Parameters/Connections|thin_film_IOR.shader", "Reference", "", "A"
+			P: "3dsMax|ai_standard_surface Parameters/Connections|emission", "Float", "", "A",0
+			P: "3dsMax|ai_standard_surface Parameters/Connections|emission.connected", "Bool", "", "A",1
+			P: "3dsMax|ai_standard_surface Parameters/Connections|emission.shader", "Reference", "", "A"
+			P: "3dsMax|ai_standard_surface Parameters/Connections|emission_color", "Color", "", "A",1,1,1
+			P: "3dsMax|ai_standard_surface Parameters/Connections|emission_color.connected", "Bool", "", "A",1
+			P: "3dsMax|ai_standard_surface Parameters/Connections|emission_color.shader", "Reference", "", "A"
+			P: "3dsMax|ai_standard_surface Parameters/Connections|opacity", "Color", "", "A",1,1,1
+			P: "3dsMax|ai_standard_surface Parameters/Connections|opacity.connected", "Bool", "", "A",1
+			P: "3dsMax|ai_standard_surface Parameters/Connections|opacity.shader", "Reference", "", "A"
+			P: "3dsMax|ai_standard_surface Parameters/Connections|caustics", "Bool", "", "A",0
+			P: "3dsMax|ai_standard_surface Parameters/Connections|internal_reflections", "Bool", "", "A",1
+			P: "3dsMax|ai_standard_surface Parameters/Connections|exit_to_background", "Bool", "", "A",0
+			P: "3dsMax|ai_standard_surface Parameters/Connections|indirect_diffuse", "Float", "", "A",1
+			P: "3dsMax|ai_standard_surface Parameters/Connections|indirect_specular", "Float", "", "A",1
+			P: "3dsMax|ai_standard_surface Results", "Compound", "", ""
+		}
+	}
+	AnimationStack: 2131223120160, "AnimStack::Take 001", "" {
+		Properties70:  {
+			P: "LocalStop", "KTime", "Time", "",76976930000
+			P: "ReferenceStop", "KTime", "Time", "",76976930000
+		}
+	}
+	AnimationLayer: 2131431846384, "AnimLayer::BaseLayer", "" {
+	}
+	CollectionExclusive: 2131419703744, "DisplayLayer::Layer001", "DisplayLayer" {
+		Properties70:  {
+			P: "Color", "ColorRGB", "Color", "",0.603921568627451,0.843137254901961,0.898039215686275
+		}
+	}
+}
+
+; Object connections
+;------------------------------------------------------------------
+
+Connections:  {
+	
+	;Model::Chest_Wood_Plank1, Model::RootNode
+	C: "OO",2130490444528,0
+	
+	;AnimLayer::BaseLayer, AnimStack::Take 001
+	C: "OO",2131431846384,2131223120160
+	
+	;Geometry::, Model::Chest_Wood_Plank1
+	C: "OO",2131217740304,2130490444528
+	
+	;Material::01 - Default, Model::Chest_Wood_Plank1
+	C: "OO",2131436011120,2130490444528
+}
+;Takes section
+;----------------------------------------------------
+
+Takes:  {
+	Current: ""
+	Take: "Take 001" {
+		FileName: "Take_001.tak"
+		LocalTime: 0,76976930000
+		ReferenceTime: 0,76976930000
+	}
+}
