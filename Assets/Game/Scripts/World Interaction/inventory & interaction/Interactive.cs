@@ -13,6 +13,7 @@ public class Interactive : MonoBehaviour
     [SerializeField] private string[]           _interactionTexts;
     [SerializeField] private Interactive[]      _interactionChain;
 
+
     private Animator    _animator;
     private int         _curInteractionTextId;
 

@@ -31,6 +31,7 @@ public class CanvasManager : MonoBehaviour
 
     public void ClearInventoryIcons()
     {
+        // if(numbers!= null)
         for (int i = 0; i < _inventoryIcons.Length; ++i)
         {
             _inventoryIcons[i].sprite   = null;
