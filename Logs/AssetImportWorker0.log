@@ -2825,3 +2825,4 @@ Received Import Request.
   path: Assets/Game/World/Ancient Temple Ruins/Materials/T_Mushrooms_Cave_A.mat
   artifactKey: Guid(0ddb58ca935c9b743aa3caf573c5821b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/Game/World/Ancient Temple Ruins/Materials/T_Mushrooms_Cave_A.mat using Guid(0ddb58ca935c9b743aa3caf573c5821b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ad7515c4627d662a86ab0aed1ae229b') in 0.093341 seconds 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
