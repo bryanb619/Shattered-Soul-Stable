@@ -18,9 +18,7 @@ public class LibraManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        libra_left = GetComponent<Animator>();
-
-        libra_right = GetComponent<Animator>();
+    
     }
 
 
@@ -45,10 +43,11 @@ public class LibraManager : MonoBehaviour
         {
             BothActive();
         }
+        
 
     }
 
-    public void BothActive()
+    void BothActive()
     {
         Debug.Log("You Won");
 
