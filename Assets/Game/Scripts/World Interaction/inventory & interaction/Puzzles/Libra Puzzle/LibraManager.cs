@@ -59,7 +59,7 @@ public class LibraManager : MonoBehaviour
     void BothActive()
     {
 
-        Debug.Log("You Won");
+        //Debug.Log("You Won");
         PopUI();
         
     }
