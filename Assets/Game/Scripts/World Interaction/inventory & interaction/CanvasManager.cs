@@ -7,9 +7,26 @@ public class CanvasManager : MonoBehaviour
     [SerializeField] private Text       _interactionText;
     [SerializeField] private Image[]    _inventoryIcons;
 
+    public static bool Inventory_Active = false;
+    public GameObject Inventory_Canvas;
+
     void Start()
     {
         HideInteractionPanel();
+    }
+    private void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.I))
+        {
+            if (Inventory_Active)
+            {
+                Hide_Inventory();
+            }
+            else
+            {
+                Show_Inventory();
+            }
+        }
     }
 
     public void HideInteractionPanel()
@@ -38,5 +55,26 @@ public class CanvasManager : MonoBehaviour
             _inventoryIcons[i].color    = Color.clear;
         }
     }
+
     
+    public void Hide_Inventory()
+    {
+
+        Inventory_Canvas.SetActive(false);
+        Inventory_Active = false;
+        Cursor.lockState = CursorLockMode.Locked;
+
+    }
+
+    public void Show_Inventory()
+    {
+
+        Inventory_Canvas.SetActive(true);
+        Inventory_Active = true;
+        Cursor.lockState = CursorLockMode.None;
+
+    }
+
+
+
 }

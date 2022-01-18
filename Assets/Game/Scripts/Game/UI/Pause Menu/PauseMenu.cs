@@ -31,7 +31,7 @@ public class PauseMenu : MonoBehaviour
             }
 
         }
-        
+
     }
 
     // method Resume
@@ -43,8 +43,11 @@ public class PauseMenu : MonoBehaviour
         Time.timeScale = 1f;
 
         Paused = false;
-     
-        
+
+        Cursor.visible = false;
+        Cursor.lockState = CursorLockMode.Locked;
+
+
 
     }
     // method pause
@@ -57,7 +60,9 @@ public class PauseMenu : MonoBehaviour
         Time.timeScale = 0f;
 
         Paused = true;
-     
+
+        Cursor.lockState = CursorLockMode.None;
+
 
     }
 
