@@ -1,17 +1,25 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class LibraManager : MonoBehaviour
 {
-    public bool LeftTriggerAnim_IsPlaying = false;
-    public bool RightTriggerAnim_IsPlaying = false;
+
+    // public ScoreManager Script;
+
+
+    public static bool LeftTriggerAnim_IsPlaying = false;
+    public static bool RightTriggerAnim_IsPlaying = false;
 
     public Animator libra_left;
     public Animator libra_right;
 
     public Animation left_trigger;
     public Animation right_trigger;
+
+    public GameObject score;
+
 
     
 
@@ -29,19 +37,20 @@ public class LibraManager : MonoBehaviour
         { 
 
             LeftTriggerAnim_IsPlaying = true;
-            Debug.Log("left active");
+           
 
         }
         if (this.libra_right.GetCurrentAnimatorStateInfo(0).IsName("Right_trigger"))
         {
            
             RightTriggerAnim_IsPlaying = true;
-            Debug.Log("right active");
+            
         }
 
         if (LeftTriggerAnim_IsPlaying && RightTriggerAnim_IsPlaying == true)
         {
             BothActive();
+
         }
         
 
@@ -49,8 +58,14 @@ public class LibraManager : MonoBehaviour
 
     void BothActive()
     {
-        Debug.Log("You Won");
 
+        //Debug.Log("You Won");
+        PopUI();
+        
+    }
+    void PopUI()
+    {
+        score.SetActive(true);
     }
 
 }
