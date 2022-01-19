@@ -18,7 +18,7 @@ public class LibraManager : MonoBehaviour
     public Animation left_trigger;
     public Animation right_trigger;
 
-    public GameObject score;
+    public GameObject Mirror;
 
 
     
@@ -65,7 +65,7 @@ public class LibraManager : MonoBehaviour
     }
     void PopUI()
     {
-        score.SetActive(true);
+        Mirror.SetActive(true);
     }
 
 }
