@@ -19,7 +19,7 @@ public class CanvasManager : MonoBehaviour
 
         LookForI_KeyCode();
 
-        LookForB_Keycode();
+        //LookForB_Keycode();
 
 
 
@@ -68,10 +68,6 @@ public class CanvasManager : MonoBehaviour
         }
     }
 
-    void LookForB_Keycode()
-    {
-
-    }
 
 
     public void Hide_Inventory()
