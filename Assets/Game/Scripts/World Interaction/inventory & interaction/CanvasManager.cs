@@ -4,8 +4,8 @@ using UnityEngine.UI;
 public class CanvasManager : MonoBehaviour
 {
     [SerializeField] private GameObject _interactionPanel;
-    [SerializeField] private Text       _interactionText;
-    [SerializeField] private Image[]    _inventoryIcons;
+    [SerializeField] private Text _interactionText;
+    [SerializeField] private Image[] _inventoryIcons;
 
     public static bool Inventory_Active = false;
     public GameObject Inventory_Canvas;
@@ -16,17 +16,13 @@ public class CanvasManager : MonoBehaviour
     }
     private void Update()
     {
-        if (Input.GetKeyDown(KeyCode.I))
-        {
-            if (Inventory_Active)
-            {
-                Hide_Inventory();
-            }
-            else
-            {
-                Show_Inventory();
-            }
-        }
+
+        LookForI_KeyCode();
+
+        LookForB_Keycode();
+
+
+
     }
 
     public void HideInteractionPanel()
@@ -42,8 +38,8 @@ public class CanvasManager : MonoBehaviour
 
     public void SetInventoryIcon(int i, Sprite icon)
     {
-        _inventoryIcons[i].sprite   = icon;
-        _inventoryIcons[i].color    = Color.white;
+        _inventoryIcons[i].sprite = icon;
+        _inventoryIcons[i].color = Color.white;
     }
 
     public void ClearInventoryIcons()
@@ -51,12 +47,33 @@ public class CanvasManager : MonoBehaviour
         // if(numbers!= null)
         for (int i = 0; i < _inventoryIcons.Length; ++i)
         {
-            _inventoryIcons[i].sprite   = null;
-            _inventoryIcons[i].color    = Color.clear;
+            _inventoryIcons[i].sprite = null;
+            _inventoryIcons[i].color = Color.clear;
+        }
+    }
+    private void LookForI_KeyCode()
+    {
+
+        if (Input.GetKeyDown(KeyCode.I))
+        {
+
+            if (Inventory_Active)
+            {
+                Hide_Inventory();
+            }
+            else
+            {
+                Show_Inventory();
+            }
         }
     }
 
-    
+    void LookForB_Keycode()
+    {
+
+    }
+
+
     public void Hide_Inventory()
     {
 

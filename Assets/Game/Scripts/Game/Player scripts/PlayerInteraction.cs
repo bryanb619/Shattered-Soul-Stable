@@ -83,7 +83,14 @@ public class PlayerInteraction : MonoBehaviour
                 PickCurrentInteractive();
             else
                 InteractWithCurrentInteractive();
+
+
         }
+    }
+
+    void LookForB_Keycode(Interactive item)
+    {
+        
     }
 
     private void PickCurrentInteractive()
@@ -96,6 +103,8 @@ public class PlayerInteraction : MonoBehaviour
     {
         _inventory.Add(item);
         _canvasManager.SetInventoryIcon(_inventory.Count - 1, item.GetIcon());
+
+        //
     }
 
     private void RemoveFromInventory(Interactive item)
