@@ -11,9 +11,6 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Game/Scenes/Game.unity
     guid: 92a29dd22d455074fa1f517080c9ac1f
-  - enabled: 1
-    path: Assets/Game/Scenes/Gemini.unity
-    guid: cffe72aeb39a74a15b2373b1640dcbf9
   m_configObjects:
     com.unity.adaptiveperformance.loader_settings: {fileID: 11400000, guid: 3e3187f9cf2fd0349be6af844f4eb297, type: 2}
     com.unity.adaptiveperformance.simulator.provider_settings: {fileID: 11400000, guid: df20bf544f2f24643bd8560be6fadcd4, type: 2}

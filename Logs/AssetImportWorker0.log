@@ -15,11 +15,11 @@ C:/Users/steve/Documents/Universidade/2 Ano_2021_2022/1 Semestre/DJD2/Shattered 
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-12283
+7303
 Successfully changed project path to: C:/Users/steve/Documents/Universidade/2 Ano_2021_2022/1 Semestre/DJD2/Shattered Soul Stable/Shattered--Sould-Stable
 C:/Users/steve/Documents/Universidade/2 Ano_2021_2022/1 Semestre/DJD2/Shattered Soul Stable/Shattered--Sould-Stable
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 109.17 ms, found 7 plugins.
+Refreshing native plugins compatible for Editor in 112.27 ms, found 7 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.1.25f1 (b6f2b893ea32)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity_Projects/2021.1.25f1/Editor/Data/Resources/UnitySubsystems
@@ -35,350 +35,91 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity_Projects/2021.1.25f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity_Projects/2021.1.25f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity_Projects/2021.1.25f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56176
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56404
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity_Projects/2021.1.25f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001654 seconds.
+Registered in 0.001874 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 103.09 ms, found 7 plugins.
+Refreshing native plugins compatible for Editor in 118.24 ms, found 7 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.119 seconds
+- Completed reload, in  1.210 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1119ms)
-		BeginReloadAssembly (60ms)
+	ReloadAssembly (1211ms)
+		BeginReloadAssembly (58ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (455ms)
-			LoadAssemblies (58ms)
+		EndReloadAssembly (530ms)
+			LoadAssemblies (56ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (143ms)
+			SetupTypeCache (172ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (26ms)
-			SetupLoadedEditorAssemblies (243ms)
+			RebuildScriptCaches (29ms)
+			SetupLoadedEditorAssemblies (280ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (6ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (103ms)
+				RefreshPlugins (118ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (107ms)
-				ProcessInitializeOnLoadMethodAttributes (26ms)
+				ProcessInitializeOnLoadAttributes (123ms)
+				ProcessInitializeOnLoadMethodAttributes (30ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.006479 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\steve\Documents\Universidade\2 Ano_2021_2022\1 Semestre\DJD2\Shattered Soul Stable\Shattered--Sould-Stable\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\steve\Documents\Universidade\2 Ano_2021_2022\1 Semestre\DJD2\Shattered Soul Stable\Shattered--Sould-Stable\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.95 ms, found 7 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.280 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1280ms)
-		BeginReloadAssembly (140ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (17ms)
-		EndReloadAssembly (1082ms)
-			LoadAssemblies (96ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (314ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (51ms)
-			SetupLoadedEditorAssemblies (544ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (78ms)
-				ProcessInitializeOnLoadAttributes (448ms)
-				ProcessInitializeOnLoadMethodAttributes (5ms)
-				AfterProcessingInitializeOnLoad (6ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (6ms)
-Platform modules already initialized, skipping
-========================================================================
-Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
-Refreshing native plugins compatible for Editor in 0.85 ms, found 7 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3580 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 155.7 MB.
-System memory in use after: 156.0 MB.
-
-Unloading 92 unused Assets to reduce memory usage. Loaded Objects now: 4043.
-Total: 4.296500 ms (FindLiveObjects: 0.333600 ms CreateObjectMapping: 0.193400 ms MarkObjects: 3.490200 ms  DeleteObjects: 0.277900 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  path: Assets/Game/Scripts/World Interaction/inventory & interaction/Puzzles Manager/NewBehaviourScript.cs
-  artifactKey: Guid(7d8bafc55c7fe37418aacdfbaee28a6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Game/Scripts/World Interaction/inventory & interaction/Puzzles Manager/NewBehaviourScript.cs using Guid(7d8bafc55c7fe37418aacdfbaee28a6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffe93ab02f6c4be2b470b6cc4928525b') in 0.024609 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 3.017746 seconds.
-  path: Assets/Game/Scripts/World Interaction/inventory & interaction/Puzzles Manager/GeminiManager.cs
-  artifactKey: Guid(7d8bafc55c7fe37418aacdfbaee28a6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Game/Scripts/World Interaction/inventory & interaction/Puzzles Manager/GeminiManager.cs using Guid(7d8bafc55c7fe37418aacdfbaee28a6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c248a50df9192aa06004c63027d62b83') in 0.004324 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1996.572154 seconds.
-  path: Assets/Game/Scripts/World Interaction/inventory & interaction/Puzzles Manager/GeminiManager.cs
-  artifactKey: Guid(7d8bafc55c7fe37418aacdfbaee28a6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Game/Scripts/World Interaction/inventory & interaction/Puzzles Manager/GeminiManager.cs using Guid(7d8bafc55c7fe37418aacdfbaee28a6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cffd60dc00349803ef68ea08aba0a5b3') in 0.003104 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1236.196508 seconds.
-  path: Assets/Game/Sprites/Puzzles
-  artifactKey: Guid(439d5a00333935247bdc6766d0426aea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Game/Sprites/Puzzles using Guid(439d5a00333935247bdc6766d0426aea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0fdc8357fd2f4698ad6a84bab8e90d6c') in 0.005428 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 10.297713 seconds.
-  path: Assets/Game/Sprites/Puzzles/Gemini
-  artifactKey: Guid(258ee4028f916fe44a1620115415ae84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Game/Sprites/Puzzles/Gemini using Guid(258ee4028f916fe44a1620115415ae84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7bce036a60551e7dd20d3f2bc9b05594') in 0.005351 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 27.176722 seconds.
-  path: Assets/Game/Sprites/Puzzles/Gemini/Pieces of art
-  artifactKey: Guid(84397f79854c5f542937d470b2d58106) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Game/Sprites/Puzzles/Gemini/Pieces of art using Guid(84397f79854c5f542937d470b2d58106) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54e7bad8f6826ee1733180112aa97f39') in 0.004801 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.080488 seconds.
-  path: Assets/Game/Sprites/Puzzles/Gemini/Pieces of art/1.png
-  artifactKey: Guid(2dbf6d491abbc4643bd1fae0e75467ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Game/Sprites/Puzzles/Gemini/Pieces of art/1.png using Guid(2dbf6d491abbc4643bd1fae0e75467ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bca37efaa8cba0e88789e63da405d0a8') in 0.166713 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000162 seconds.
-  path: Assets/Game/Sprites/Puzzles/Gemini/Pieces of art/6.png
-  artifactKey: Guid(cea5d78ff4cb36b4d9cf512f84f137d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Game/Sprites/Puzzles/Gemini/Pieces of art/6.png using Guid(cea5d78ff4cb36b4d9cf512f84f137d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '062b0267d5640f4bd74a55322d195f32') in 0.018648 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000244 seconds.
-  path: Assets/Game/Sprites/Puzzles/Gemini/Pieces of art/2.png
-  artifactKey: Guid(03ae64db9a418bf4084083b71a04fb31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Game/Sprites/Puzzles/Gemini/Pieces of art/2.png using Guid(03ae64db9a418bf4084083b71a04fb31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99056fd1bc27bb62649bd5318cc730b5') in 0.030714 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000279 seconds.
-  path: Assets/Game/Sprites/Puzzles/Gemini/Pieces of art/4.png
-  artifactKey: Guid(3747325effbd9e84d8a5f13c8b6ee487) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Game/Sprites/Puzzles/Gemini/Pieces of art/4.png using Guid(3747325effbd9e84d8a5f13c8b6ee487) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9aa18d8ac8ebb74a520d156c141f4590') in 0.041599 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000207 seconds.
-  path: Assets/Game/Sprites/Puzzles/Gemini/Pieces of art/5.png
-  artifactKey: Guid(c3aab8cd5aebf964cb8211791c4d9b29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Game/Sprites/Puzzles/Gemini/Pieces of art/5.png using Guid(c3aab8cd5aebf964cb8211791c4d9b29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a02fd58a4fcd93f60140bf1450bd547') in 0.012997 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000178 seconds.
-  path: Assets/Game/Sprites/Puzzles/Gemini/Pieces of art/3.png
-  artifactKey: Guid(c52f2add2e76621488b3a2eb687ac377) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Game/Sprites/Puzzles/Gemini/Pieces of art/3.png using Guid(c52f2add2e76621488b3a2eb687ac377) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '954d96bba5f22fbbd1565e575a036a75') in 0.013423 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000217 seconds.
-  path: Assets/Game/Sprites/Puzzles/Gemini/Pieces of art/7.png
-  artifactKey: Guid(b20b4258dcf8835419a6af7ab4ae46a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Game/Sprites/Puzzles/Gemini/Pieces of art/7.png using Guid(b20b4258dcf8835419a6af7ab4ae46a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40760ee78ebd23cada9a24d0039eaa77') in 0.012902 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 16.335616 seconds.
-  path: Assets/Game/Sprites/Puzzles/Gemini/Pieces of art/5.png
-  artifactKey: Guid(c3aab8cd5aebf964cb8211791c4d9b29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Game/Sprites/Puzzles/Gemini/Pieces of art/5.png using Guid(c3aab8cd5aebf964cb8211791c4d9b29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73a73f1cf65a07084431f68e152a6422') in 0.101155 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000382 seconds.
-  path: Assets/Game/Sprites/Puzzles/Gemini/Pieces of art/6.png
-  artifactKey: Guid(cea5d78ff4cb36b4d9cf512f84f137d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Game/Sprites/Puzzles/Gemini/Pieces of art/6.png using Guid(cea5d78ff4cb36b4d9cf512f84f137d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9be9962303e53f53654227f86de0c42b') in 0.068200 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000584 seconds.
-  path: Assets/Game/Sprites/Puzzles/Gemini/Pieces of art/2.png
-  artifactKey: Guid(03ae64db9a418bf4084083b71a04fb31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Game/Sprites/Puzzles/Gemini/Pieces of art/2.png using Guid(03ae64db9a418bf4084083b71a04fb31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5edaefef0bcf7905c80643fecf4e6b4') in 0.019804 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000252 seconds.
-  path: Assets/Game/Sprites/Puzzles/Gemini/Pieces of art/4.png
-  artifactKey: Guid(3747325effbd9e84d8a5f13c8b6ee487) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Game/Sprites/Puzzles/Gemini/Pieces of art/4.png using Guid(3747325effbd9e84d8a5f13c8b6ee487) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5105bbc957fa876ed3549e95c2f4e793') in 0.043712 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000634 seconds.
-  path: Assets/Game/Sprites/Puzzles/Gemini/Pieces of art/1.png
-  artifactKey: Guid(2dbf6d491abbc4643bd1fae0e75467ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Game/Sprites/Puzzles/Gemini/Pieces of art/1.png using Guid(2dbf6d491abbc4643bd1fae0e75467ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a61fb04d81f6b3e6f3f8541aff92574') in 0.047263 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000256 seconds.
-  path: Assets/Game/Sprites/Puzzles/Gemini/Pieces of art/3.png
-  artifactKey: Guid(c52f2add2e76621488b3a2eb687ac377) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Game/Sprites/Puzzles/Gemini/Pieces of art/3.png using Guid(c52f2add2e76621488b3a2eb687ac377) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9468f4e318bd67490f0ded7f8bf6fd0') in 0.037087 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000246 seconds.
-  path: Assets/Game/Sprites/Puzzles/Gemini/Pieces of art/7.png
-  artifactKey: Guid(b20b4258dcf8835419a6af7ab4ae46a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Game/Sprites/Puzzles/Gemini/Pieces of art/7.png using Guid(b20b4258dcf8835419a6af7ab4ae46a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34b49fa21cfb30f97c9b43cf714c8ab8') in 0.013780 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 12.791221 seconds.
-  path: Assets/Game/Sprites/Puzzles/Gemini/puzzleg.png
-  artifactKey: Guid(e375424b4c765d34f9e51bdcbafaf598) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Game/Sprites/Puzzles/Gemini/puzzleg.png using Guid(e375424b4c765d34f9e51bdcbafaf598) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '014ccee468e8c425c816685972a30299') in 0.029643 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 5.614414 seconds.
-  path: Assets/Game/Sprites/Puzzles/Gemini/puzzleg.png
-  artifactKey: Guid(e375424b4c765d34f9e51bdcbafaf598) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Game/Sprites/Puzzles/Gemini/puzzleg.png using Guid(e375424b4c765d34f9e51bdcbafaf598) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3b9c7c7eec5eaff541aacbfe4a06c47') in 0.025301 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 175.058553 seconds.
-  path: Assets/Game/Sprites/Puzzles/Gemini/Pieces of art/8.png
-  artifactKey: Guid(55d36311690b3f84f8de8c4c4f5eb7f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Game/Sprites/Puzzles/Gemini/Pieces of art/8.png using Guid(55d36311690b3f84f8de8c4c4f5eb7f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d19b6055c032cff7d755909c09f276f') in 0.016997 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 5.807623 seconds.
-  path: Assets/Game/Sprites/Puzzles/Gemini/Pieces of art/10.png
-  artifactKey: Guid(fa33bf9936fd06840b5192a98a166e55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Game/Sprites/Puzzles/Gemini/Pieces of art/10.png using Guid(fa33bf9936fd06840b5192a98a166e55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec7b5a05108d1a7abc2efc0aa0c9c265') in 0.022079 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.587746 seconds.
-  path: Assets/Game/Sprites/Puzzles/Gemini/Pieces of art/11.png
-  artifactKey: Guid(ba8ba6f9c0e40474da1618f044479b58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Game/Sprites/Puzzles/Gemini/Pieces of art/11.png using Guid(ba8ba6f9c0e40474da1618f044479b58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6c98689d3d6614f7ee37e5b593fad66') in 0.018770 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.508317 seconds.
-  path: Assets/Game/Sprites/Puzzles/Gemini/Pieces of art/12.png
-  artifactKey: Guid(6fc04ce52141e524db6fe0b0b121d548) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Game/Sprites/Puzzles/Gemini/Pieces of art/12.png using Guid(6fc04ce52141e524db6fe0b0b121d548) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1c5ef9780db3acae84d0941c03a0839') in 0.018732 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.339706 seconds.
-  path: Assets/Game/Sprites/Puzzles/Gemini/Pieces of art/9.png
-  artifactKey: Guid(4de866e9ac59e3c4eacfbe5e6d4bcadb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Game/Sprites/Puzzles/Gemini/Pieces of art/9.png using Guid(4de866e9ac59e3c4eacfbe5e6d4bcadb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8df4c75f475830169f0097460aac3de2') in 0.024311 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 8.620660 seconds.
-  path: Assets/Game/Sprites/Puzzles/Gemini/Pieces of art/8.png
-  artifactKey: Guid(55d36311690b3f84f8de8c4c4f5eb7f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Game/Sprites/Puzzles/Gemini/Pieces of art/8.png using Guid(55d36311690b3f84f8de8c4c4f5eb7f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '350d75463d50db2e0cf33c1819979dfb') in 0.032343 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000775 seconds.
-  path: Assets/Game/Sprites/Puzzles/Gemini/Pieces of art/10.png
-  artifactKey: Guid(fa33bf9936fd06840b5192a98a166e55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Game/Sprites/Puzzles/Gemini/Pieces of art/10.png using Guid(fa33bf9936fd06840b5192a98a166e55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11b163ce61bc934425fbb9af4c12ff62') in 0.071106 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000275 seconds.
-  path: Assets/Game/Sprites/Puzzles/Gemini/Pieces of art/12.png
-  artifactKey: Guid(6fc04ce52141e524db6fe0b0b121d548) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Game/Sprites/Puzzles/Gemini/Pieces of art/12.png using Guid(6fc04ce52141e524db6fe0b0b121d548) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2a7b44cdeaa4eaaec07bb1e9a2572d7') in 0.075216 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000247 seconds.
-  path: Assets/Game/Sprites/Puzzles/Gemini/Pieces of art/9.png
-  artifactKey: Guid(4de866e9ac59e3c4eacfbe5e6d4bcadb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Game/Sprites/Puzzles/Gemini/Pieces of art/9.png using Guid(4de866e9ac59e3c4eacfbe5e6d4bcadb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e00009eb49a6fa5be23b5cc41c136535') in 0.060230 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000375 seconds.
-  path: Assets/Game/Sprites/Puzzles/Gemini/Pieces of art/11.png
-  artifactKey: Guid(ba8ba6f9c0e40474da1618f044479b58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Game/Sprites/Puzzles/Gemini/Pieces of art/11.png using Guid(ba8ba6f9c0e40474da1618f044479b58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ef15bd5e338c596e0d7c4c22fdb156e') in 0.018004 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.007253 seconds.
+Registered in 0.006862 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\steve\Documents\Universidade\2 Ano_2021_2022\1 Semestre\DJD2\Shattered Soul Stable\Shattered--Sould-Stable\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\steve\Documents\Universidade\2 Ano_2021_2022\1 Semestre\DJD2\Shattered Soul Stable\Shattered--Sould-Stable\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 0.97 ms, found 7 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Warning: Annotation not found!
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/EditorUtility.cs:575)
-UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/HierarchyListener.cs:21)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-[Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/EditorUtility.cs line 575]
-
 Mono: successfully reloaded assembly
-- Completed reload, in  1.432 seconds
+- Completed reload, in  1.297 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1432ms)
-		BeginReloadAssembly (232ms)
+	ReloadAssembly (1298ms)
+		BeginReloadAssembly (149ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (7ms)
+			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (103ms)
-		EndReloadAssembly (1130ms)
-			LoadAssemblies (122ms)
+			CreateAndSetChildDomain (21ms)
+		EndReloadAssembly (1072ms)
+			LoadAssemblies (102ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (344ms)
+			SetupTypeCache (305ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (43ms)
-			SetupLoadedEditorAssemblies (471ms)
+			RebuildScriptCaches (47ms)
+			SetupLoadedEditorAssemblies (537ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (5ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (70ms)
-				ProcessInitializeOnLoadAttributes (383ms)
-				ProcessInitializeOnLoadMethodAttributes (5ms)
+				BeforeProcessingInitializeOnLoad (77ms)
+				ProcessInitializeOnLoadAttributes (442ms)
+				ProcessInitializeOnLoadMethodAttributes (4ms)
 				AfterProcessingInitializeOnLoad (7ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (20ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.85 ms, found 7 plugins.
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 0.84 ms, found 7 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3519 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 214.9 MB.
-System memory in use after: 215.1 MB.
+Unloading 3580 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 156.1 MB.
+System memory in use after: 156.3 MB.
 
-Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 4428.
-Total: 4.055000 ms (FindLiveObjects: 0.344300 ms CreateObjectMapping: 0.248800 ms MarkObjects: 3.442900 ms  DeleteObjects: 0.017800 ms)
+Unloading 92 unused Assets to reduce memory usage. Loaded Objects now: 4043.
+Total: 3.832600 ms (FindLiveObjects: 0.268400 ms CreateObjectMapping: 0.260600 ms MarkObjects: 3.105500 ms  DeleteObjects: 0.197100 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -391,3 +132,104 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/Game/Sprites/Puzzles/Aquarius
+  artifactKey: Guid(27229cc9b502c3b4ba0b1144d1b444c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Sprites/Puzzles/Aquarius using Guid(27229cc9b502c3b4ba0b1144d1b444c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9b19400a6ee44d50787ca98af3b2e9f') in 0.008138 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000209 seconds.
+  path: Assets/Game/Sprites/Puzzles/Aquarius/aquarius.jpg
+  artifactKey: Guid(0e5698306cd8fd54db50ab27f504b888) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Sprites/Puzzles/Aquarius/aquarius.jpg using Guid(0e5698306cd8fd54db50ab27f504b888) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4bb83f2650e0f028ce78c670b12468ee') in 0.067457 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.019245 seconds.
+  path: Assets/Game/Sprites/Puzzles/Aquarius/aquarius.jpg
+  artifactKey: Guid(0e5698306cd8fd54db50ab27f504b888) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Sprites/Puzzles/Aquarius/aquarius.jpg using Guid(0e5698306cd8fd54db50ab27f504b888) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1cb54c92287fc5a3e327d5ef9d1fce5') in 0.068532 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 56.910874 seconds.
+  path: Assets/Game/Sprites/Puzzles/Libra
+  artifactKey: Guid(5496ac07ec5093a4786c4d6c3fe6e509) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Sprites/Puzzles/Libra using Guid(5496ac07ec5093a4786c4d6c3fe6e509) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38de9750e519d483f3aa7adf4bcac7b5') in 0.005354 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.663745 seconds.
+  path: Assets/Game/Sprites/Puzzles/Libra/libra.jpg
+  artifactKey: Guid(1eacb2258a60b1640aed5716d6dc8561) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Sprites/Puzzles/Libra/libra.jpg using Guid(1eacb2258a60b1640aed5716d6dc8561) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26096fb3158e3674b509ffe0541d3bb2') in 0.017133 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.665314 seconds.
+  path: Assets/Game/Sprites/Puzzles/Libra/libra.jpg
+  artifactKey: Guid(1eacb2258a60b1640aed5716d6dc8561) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Sprites/Puzzles/Libra/libra.jpg using Guid(1eacb2258a60b1640aed5716d6dc8561) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c65d9c59b660857d35f37113087eb1d0') in 0.061957 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 16.257209 seconds.
+  path: Assets/Game/Sprites/Puzzles/Gemini/Puzzle_Art.png
+  artifactKey: Guid(e375424b4c765d34f9e51bdcbafaf598) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Sprites/Puzzles/Gemini/Puzzle_Art.png using Guid(e375424b4c765d34f9e51bdcbafaf598) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be471ea26a81de9c1f91ca94e8df36c5') in 0.061923 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 50.683160 seconds.
+  path: Assets/Game/Sprites/Pick ups
+  artifactKey: Guid(9bbd48451c2f09042bf08080d486f03a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Sprites/Pick ups using Guid(9bbd48451c2f09042bf08080d486f03a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc789d773e7df06a2cf5c6919a5a65cb') in 0.007803 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.114391 seconds.
+  path: Assets/Game/Sprites/Game Logo
+  artifactKey: Guid(ffb4487a15811f6489d40d3d3f8ef929) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Sprites/Game Logo using Guid(ffb4487a15811f6489d40d3d3f8ef929) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b74b03aa8c022fdfec8ec7335aaadc00') in 0.011026 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.132594 seconds.
+  path: Assets/Game/Sprites/Pick ups/skull.png
+  artifactKey: Guid(4f5778b78a24f974cbbff63e03783716) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Sprites/Pick ups/skull.png using Guid(4f5778b78a24f974cbbff63e03783716) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40b144e2557c748f2f829535253d9409') in 0.038738 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.974595 seconds.
+  path: Assets/Game/Sprites/Pick ups/crystal.png
+  artifactKey: Guid(40fcf02891954b64db61c334505b1a18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Sprites/Pick ups/crystal.png using Guid(40fcf02891954b64db61c334505b1a18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92866bf042831511e03190d5f1d35444') in 0.013550 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.786238 seconds.
+  path: Assets/Game/Sprites/Pick ups/lira.png
+  artifactKey: Guid(7ca5566e04d257b44a6907054bad7c45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Sprites/Pick ups/lira.png using Guid(7ca5566e04d257b44a6907054bad7c45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e169ce90fe75d9b5ceb2160b65da80c3') in 0.014146 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 37.618934 seconds.
+  path: Assets/Game/Sprites/Pick ups/bow1.png
+  artifactKey: Guid(258f9017d5f71c241a224fb2a661fe9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Sprites/Pick ups/bow1.png using Guid(258f9017d5f71c241a224fb2a661fe9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2251c9618aa04e8e3b0e87c2c817ce8e') in 0.028418 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.671610 seconds.
+  path: Assets/Game/Sprites/Pick ups/skull.png
+  artifactKey: Guid(4f5778b78a24f974cbbff63e03783716) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Sprites/Pick ups/skull.png using Guid(4f5778b78a24f974cbbff63e03783716) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ab19bc537375a984065bf1ccfd9a599') in 0.079614 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000336 seconds.
+  path: Assets/Game/Sprites/Pick ups/lira.png
+  artifactKey: Guid(7ca5566e04d257b44a6907054bad7c45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Sprites/Pick ups/lira.png using Guid(7ca5566e04d257b44a6907054bad7c45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ab7cbf282b540b8b53a8f1ae226efb5') in 0.062396 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000329 seconds.
+  path: Assets/Game/Sprites/Pick ups/bow1.png
+  artifactKey: Guid(258f9017d5f71c241a224fb2a661fe9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Sprites/Pick ups/bow1.png using Guid(258f9017d5f71c241a224fb2a661fe9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4543e057ad9ca043017e2f5cbacd4c2b') in 0.026451 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000299 seconds.
+  path: Assets/Game/Sprites/Pick ups/crystal.png
+  artifactKey: Guid(40fcf02891954b64db61c334505b1a18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Sprites/Pick ups/crystal.png using Guid(40fcf02891954b64db61c334505b1a18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0b861ef70615162280e154c188fca81') in 0.035261 seconds 
