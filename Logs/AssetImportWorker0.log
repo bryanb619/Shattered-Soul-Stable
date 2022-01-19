@@ -1,0 +1,684 @@
+Using pre-set license
+Built from '2021.1/staging' branch; Version is '2021.1.25f1 (b6f2b893ea32) revision 11989688'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Pro; OS build 19042.1466; Version 2009; 64bit' Language: 'pt' Physical Memory: 16334 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+COMMAND LINE ARGUMENTS:
+E:\2021.1.25f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+H:/OneDrive/Área de Trabalho/Shattered_Soul/Shattered-Sould-Stable
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+63226
+Successfully changed project path to: H:/OneDrive/Área de Trabalho/Shattered_Soul/Shattered-Sould-Stable
+H:/OneDrive/Área de Trabalho/Shattered_Soul/Shattered-Sould-Stable
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 251.56 ms, found 7 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.1.25f1 (b6f2b893ea32)
+[Subsystems] Discovering subsystems at path E:/2021.1.25f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path H:/OneDrive/Área de Trabalho/Shattered_Soul/Shattered-Sould-Stable/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 950 (ID=0x1402)
+    Vendor:   NVIDIA
+    VRAM:     2007 MB
+    Driver:   27.21.14.5671
+Initialize mono
+Mono path[0] = 'E:/2021.1.25f1/Editor/Data/Managed'
+Mono path[1] = 'E:/2021.1.25f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'E:/2021.1.25f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56788
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: E:/2021.1.25f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.008479 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 217.55 ms, found 7 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.038 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3039ms)
+		BeginReloadAssembly (137ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (1149ms)
+			LoadAssemblies (136ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (416ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (63ms)
+			SetupLoadedEditorAssemblies (565ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (21ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (218ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (261ms)
+				ProcessInitializeOnLoadMethodAttributes (63ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.019316 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image H:\OneDrive\Área de Trabalho\Shattered_Soul\Shattered-Sould-Stable\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image H:\OneDrive\Área de Trabalho\Shattered_Soul\Shattered-Sould-Stable\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.13 ms, found 7 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.172 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3173ms)
+		BeginReloadAssembly (310ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (36ms)
+		EndReloadAssembly (2758ms)
+			LoadAssemblies (243ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (835ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (108ms)
+			SetupLoadedEditorAssemblies (1360ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (11ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (151ms)
+				ProcessInitializeOnLoadAttributes (1178ms)
+				ProcessInitializeOnLoadMethodAttributes (8ms)
+				AfterProcessingInitializeOnLoad (10ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (12ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.27 seconds
+Refreshing native plugins compatible for Editor in 1.07 ms, found 7 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3578 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 159.7 MB.
+System memory in use after: 159.9 MB.
+
+Unloading 91 unused Assets to reduce memory usage. Loaded Objects now: 4040.
+Total: 6.842900 ms (FindLiveObjects: 0.352700 ms CreateObjectMapping: 0.277500 ms MarkObjects: 6.020000 ms  DeleteObjects: 0.191000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/Game/World/Ancient Temple Ruins/Materials/T_Door_Wood_Set_A.mat
+  artifactKey: Guid(a9012b3287055ef4abbf2b9ddc53357b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/World/Ancient Temple Ruins/Materials/T_Door_Wood_Set_A.mat using Guid(a9012b3287055ef4abbf2b9ddc53357b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07ca7424116dbeb7493f16529cd01adf') in 0.496413 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.024497 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image H:\OneDrive\Área de Trabalho\Shattered_Soul\Shattered-Sould-Stable\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image H:\OneDrive\Área de Trabalho\Shattered_Soul\Shattered-Sould-Stable\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.23 ms, found 7 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/EditorUtility.cs:575)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/EditorUtility.cs line 575]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  5.505 seconds
+Domain Reload Profiling:
+	ReloadAssembly (5506ms)
+		BeginReloadAssembly (242ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (13ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (77ms)
+		EndReloadAssembly (5104ms)
+			LoadAssemblies (265ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (3434ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (188ms)
+			SetupLoadedEditorAssemblies (973ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (14ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (111ms)
+				ProcessInitializeOnLoadAttributes (814ms)
+				ProcessInitializeOnLoadMethodAttributes (15ms)
+				AfterProcessingInitializeOnLoad (16ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (17ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.22 ms, found 7 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3504 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 158.0 MB.
+System memory in use after: 158.2 MB.
+
+Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 4082.
+Total: 5.652900 ms (FindLiveObjects: 0.349600 ms CreateObjectMapping: 0.248900 ms MarkObjects: 5.023300 ms  DeleteObjects: 0.029300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.014715 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image H:\OneDrive\Área de Trabalho\Shattered_Soul\Shattered-Sould-Stable\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image H:\OneDrive\Área de Trabalho\Shattered_Soul\Shattered-Sould-Stable\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 4.95 ms, found 7 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/EditorUtility.cs:575)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/EditorUtility.cs line 575]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  4.270 seconds
+Domain Reload Profiling:
+	ReloadAssembly (4271ms)
+		BeginReloadAssembly (527ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (41ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (123ms)
+		EndReloadAssembly (3605ms)
+			LoadAssemblies (307ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (975ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (103ms)
+			SetupLoadedEditorAssemblies (1406ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (31ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (5ms)
+				BeforeProcessingInitializeOnLoad (226ms)
+				ProcessInitializeOnLoadAttributes (1127ms)
+				ProcessInitializeOnLoadMethodAttributes (9ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (23ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.21 ms, found 7 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3504 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 158.0 MB.
+System memory in use after: 158.3 MB.
+
+Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 4084.
+Total: 6.448700 ms (FindLiveObjects: 0.621500 ms CreateObjectMapping: 0.380200 ms MarkObjects: 5.415600 ms  DeleteObjects: 0.029400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.102949 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image H:\OneDrive\Área de Trabalho\Shattered_Soul\Shattered-Sould-Stable\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image H:\OneDrive\Área de Trabalho\Shattered_Soul\Shattered-Sould-Stable\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.12 ms, found 7 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/EditorUtility.cs:575)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/EditorUtility.cs line 575]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  7.527 seconds
+Domain Reload Profiling:
+	ReloadAssembly (7528ms)
+		BeginReloadAssembly (595ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (29ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (167ms)
+		EndReloadAssembly (6626ms)
+			LoadAssemblies (592ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (2037ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (848ms)
+			SetupLoadedEditorAssemblies (2569ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (36ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (325ms)
+				ProcessInitializeOnLoadAttributes (2173ms)
+				ProcessInitializeOnLoadMethodAttributes (29ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (33ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.61 ms, found 7 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3504 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 158.0 MB.
+System memory in use after: 158.3 MB.
+
+Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 4086.
+Total: 7.074700 ms (FindLiveObjects: 0.390300 ms CreateObjectMapping: 0.301100 ms MarkObjects: 6.350800 ms  DeleteObjects: 0.030400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 2529.506954 seconds.
+  path: Assets/Game/World/Ancient Temple Ruins/Materials/T_FloorTiles_2_A.mat
+  artifactKey: Guid(8cd23d079ca6ecf4b870e13035b0fe39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/World/Ancient Temple Ruins/Materials/T_FloorTiles_2_A.mat using Guid(8cd23d079ca6ecf4b870e13035b0fe39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'faf6b070474729f4ff0d5c1c56eb1e0a') in 0.997135 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 17.241086 seconds.
+  path: Assets/Game/World/Ancient Temple Ruins/Materials/T_FloorTiles_3_A.mat
+  artifactKey: Guid(a659fd6887f15bd4da1bee5510371c5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/World/Ancient Temple Ruins/Materials/T_FloorTiles_3_A.mat using Guid(a659fd6887f15bd4da1bee5510371c5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0f6073f23adb274e5c01143abb71f77') in 0.033014 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 251.656240 seconds.
+  path: Assets/Game/World/Ancient Temple Ruins/Materials/T_Detail_StoneWithPores_A.mat
+  artifactKey: Guid(03616430b340d27479b05c2ca874a399) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/World/Ancient Temple Ruins/Materials/T_Detail_StoneWithPores_A.mat using Guid(03616430b340d27479b05c2ca874a399) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '026d8b02adcf37efe684b21ebde48858') in 0.031380 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 43.564413 seconds.
+  path: Assets/Game/World/Ancient Temple Ruins/Materials/T_RitualGround_Stones_1_A.mat
+  artifactKey: Guid(ca9b2be89fca84c43875c37dc9d90d98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/World/Ancient Temple Ruins/Materials/T_RitualGround_Stones_1_A.mat using Guid(ca9b2be89fca84c43875c37dc9d90d98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d0f6d2eaee236b5cf29047158c8f694') in 0.052617 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 130.041163 seconds.
+  path: Assets/Game/World/Ancient Temple Ruins/Materials/T_LimestoneClean_A.mat
+  artifactKey: Guid(f82d520f907e69348b9f3547cdcff043) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/World/Ancient Temple Ruins/Materials/T_LimestoneClean_A.mat using Guid(f82d520f907e69348b9f3547cdcff043) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c550b9979ceff0611088ca7fc22fb547') in 0.064261 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 185.334721 seconds.
+  path: Assets/Unity assets/ADG_Textures/walls_vol1/wall01/Materials/wall01_Diffuse.mat
+  artifactKey: Guid(876062dc81d49244cbc73c1e8ce2762e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity assets/ADG_Textures/walls_vol1/wall01/Materials/wall01_Diffuse.mat using Guid(876062dc81d49244cbc73c1e8ce2762e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9615f1277f252233c6bd38d78096b66') in 0.228063 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 55.609543 seconds.
+  path: Assets/Unity assets/ADG_Textures/walls_vol1/wall06/wall06b.mat
+  artifactKey: Guid(6077e4f498f74ac48ad21c2bead7fd35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity assets/ADG_Textures/walls_vol1/wall06/wall06b.mat using Guid(6077e4f498f74ac48ad21c2bead7fd35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff879df8d79b725465b318a16dc675c6') in 0.363972 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000096 seconds.
+  path: Assets/Unity assets/ADG_Textures/walls_vol1/wall08/wall08.mat
+  artifactKey: Guid(48957feba398b3146bb5b1493df5403e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity assets/ADG_Textures/walls_vol1/wall08/wall08.mat using Guid(48957feba398b3146bb5b1493df5403e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37fde4539abc88ac2b89c8ece9223499') in 0.065351 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000273 seconds.
+  path: Assets/Unity assets/ADG_Textures/walls_vol1/wall07/wall07.mat
+  artifactKey: Guid(b2aa31d8fe3745747a4b0fd95bfaf2c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity assets/ADG_Textures/walls_vol1/wall07/wall07.mat using Guid(b2aa31d8fe3745747a4b0fd95bfaf2c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ccf268e638396ee6bcddf9615096876') in 0.336073 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000292 seconds.
+  path: Assets/Unity assets/ADG_Textures/walls_vol1/wall10/wall10.mat
+  artifactKey: Guid(ce2bc60dd9a7e964daaaff36d79fbfdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity assets/ADG_Textures/walls_vol1/wall10/wall10.mat using Guid(ce2bc60dd9a7e964daaaff36d79fbfdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a160feb8204e6f472316a1a822a81615') in 0.166107 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000331 seconds.
+  path: Assets/Unity assets/ADG_Textures/walls_vol1/wall10/Materials/wall10_Diffuse.mat
+  artifactKey: Guid(b40ab7b4d6bf97a44805b1464197f3a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity assets/ADG_Textures/walls_vol1/wall10/Materials/wall10_Diffuse.mat using Guid(b40ab7b4d6bf97a44805b1464197f3a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5674b118febc000b38a6aa8fc8bbd46') in 0.048207 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000243 seconds.
+  path: Assets/Unity assets/ADG_Textures/walls_vol1/wall07/wall07b.mat
+  artifactKey: Guid(d3b1829a6d5883c40bc3bbce8b2ba6ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity assets/ADG_Textures/walls_vol1/wall07/wall07b.mat using Guid(d3b1829a6d5883c40bc3bbce8b2ba6ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '430f151c43a07342d66943a1a2cfe884') in 0.113260 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.924933 seconds.
+  path: Assets/Unity assets/ADG_Textures/walls_vol1/wall11/wall11b.mat
+  artifactKey: Guid(b2394c0eb4527fe489f9cf53d290baeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity assets/ADG_Textures/walls_vol1/wall11/wall11b.mat using Guid(b2394c0eb4527fe489f9cf53d290baeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38e52955eac099410002d9682f8c03c8') in 0.227027 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000299 seconds.
+  path: Assets/Unity assets/ADG_Textures/walls_vol1/wall12/wall12.mat
+  artifactKey: Guid(19384859089e5ee4f99e102652ee3484) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity assets/ADG_Textures/walls_vol1/wall12/wall12.mat using Guid(19384859089e5ee4f99e102652ee3484) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e8851838879a6b1d3ce94757f962e9e') in 0.408412 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.532382 seconds.
+  path: Assets/Unity assets/ADG_Textures/walls_vol1/wall16/wall16.mat
+  artifactKey: Guid(92f575e356de5d64e9346ceddb75dee5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity assets/ADG_Textures/walls_vol1/wall16/wall16.mat using Guid(92f575e356de5d64e9346ceddb75dee5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd10080e72b9212b1bddeb64a65b4974') in 0.335010 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 166.578251 seconds.
+  path: Assets/Unity assets/ADG_Textures/walls_vol1/wall11/wall11_Ambient_Occlusion.tga
+  artifactKey: Guid(b0d948dad3a9457429c143ec2f396e39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity assets/ADG_Textures/walls_vol1/wall11/wall11_Ambient_Occlusion.tga using Guid(b0d948dad3a9457429c143ec2f396e39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d77a22a2959c4e2f7a80a1032dfc68f') in 0.100011 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.011253 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image H:\OneDrive\Área de Trabalho\Shattered_Soul\Shattered-Sould-Stable\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image H:\OneDrive\Área de Trabalho\Shattered_Soul\Shattered-Sould-Stable\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.29 ms, found 7 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/EditorUtility.cs:575)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/EditorUtility.cs line 575]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  3.790 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3791ms)
+		BeginReloadAssembly (372ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (89ms)
+		EndReloadAssembly (3226ms)
+			LoadAssemblies (453ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (966ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (101ms)
+			SetupLoadedEditorAssemblies (1393ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (14ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (137ms)
+				ProcessInitializeOnLoadAttributes (1195ms)
+				ProcessInitializeOnLoadMethodAttributes (21ms)
+				AfterProcessingInitializeOnLoad (21ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (47ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.36 ms, found 7 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3505 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 159.9 MB.
+System memory in use after: 160.2 MB.
+
+Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 4106.
+Total: 13.596600 ms (FindLiveObjects: 0.346700 ms CreateObjectMapping: 0.319200 ms MarkObjects: 12.899500 ms  DeleteObjects: 0.029700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 731.625069 seconds.
+  path: Assets/Game/World/Night MoonBurst/AllSky_Night_MoonBurst Equirect.mat
+  artifactKey: Guid(51b74d7bad397457d883c5940f7664d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/World/Night MoonBurst/AllSky_Night_MoonBurst Equirect.mat using Guid(51b74d7bad397457d883c5940f7664d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8f37aab3b7803bae6c0a2885207c6fa') in 0.335908 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 163.068724 seconds.
+  path: Assets/Game/World/Ancient Temple Ruins/Materials/M_FloorTiles_LyreTemple_02 1.mat
+  artifactKey: Guid(0373ab9f77f65804785f67c0e12703b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/World/Ancient Temple Ruins/Materials/M_FloorTiles_LyreTemple_02 1.mat using Guid(0373ab9f77f65804785f67c0e12703b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54a3669a9d60b3c9c38c457d202f4d6f') in 0.147257 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 556.158781 seconds.
+  path: Assets/Game/World/Ancient Temple Ruins/Materials/T_PillarLimestone_1_A.mat
+  artifactKey: Guid(5052a9bb4bcc50c429bf46bb14e80872) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/World/Ancient Temple Ruins/Materials/T_PillarLimestone_1_A.mat using Guid(5052a9bb4bcc50c429bf46bb14e80872) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3528bcae516cbd014eb5a6c9c48a062a') in 0.097210 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000498 seconds.
+  path: Assets/Game/World/Ancient Temple Ruins/Materials/T_TemplePillar_1_A.mat
+  artifactKey: Guid(83ad9f59847f67e4e91ff2e709dbf12d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/World/Ancient Temple Ruins/Materials/T_TemplePillar_1_A.mat using Guid(83ad9f59847f67e4e91ff2e709dbf12d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46590813de9c893de45fa51f2ccc9985') in 0.097730 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 83.580998 seconds.
+  path: Assets/Game/World/Ancient Temple Ruins/Materials/M_Pillar_Harbour.mat
+  artifactKey: Guid(eb89d2e0f16b811418c3a2d81a914a37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/World/Ancient Temple Ruins/Materials/M_Pillar_Harbour.mat using Guid(eb89d2e0f16b811418c3a2d81a914a37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71cb05ddfa935fe3a2cc56536064edac') in 0.366365 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.041699 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image H:\OneDrive\Área de Trabalho\Shattered_Soul\Shattered-Sould-Stable\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image H:\OneDrive\Área de Trabalho\Shattered_Soul\Shattered-Sould-Stable\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 8.46 ms, found 7 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/EditorUtility.cs:575)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/EditorUtility.cs line 575]
+
+Mono: successfully reloaded assembly
+- Completed reload, in 15.254 seconds
+Domain Reload Profiling:
+	ReloadAssembly (15255ms)
+		BeginReloadAssembly (1130ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (37ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (292ms)
+		EndReloadAssembly (13386ms)
+			LoadAssemblies (1093ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (2851ms)
+			ReleaseScriptCaches (8ms)
+			RebuildScriptCaches (357ms)
+			SetupLoadedEditorAssemblies (8468ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (34ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (18ms)
+				BeforeProcessingInitializeOnLoad (474ms)
+				ProcessInitializeOnLoadAttributes (7891ms)
+				ProcessInitializeOnLoadMethodAttributes (31ms)
+				AfterProcessingInitializeOnLoad (17ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (73ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.95 ms, found 7 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3504 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 159.9 MB.
+System memory in use after: 160.2 MB.
+
+Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 4109.
+Total: 32.070700 ms (FindLiveObjects: 1.349400 ms CreateObjectMapping: 14.820500 ms MarkObjects: 15.869900 ms  DeleteObjects: 0.029300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 869.791596 seconds.
+  path: Assets/Game/World/Ancient Temple Ruins/Materials/M_RitualGround_Stones.mat
+  artifactKey: Guid(d5d340074a51b4e4b9d14e6c3bedbe1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/World/Ancient Temple Ruins/Materials/M_RitualGround_Stones.mat using Guid(d5d340074a51b4e4b9d14e6c3bedbe1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a77ee1065c6ad5b1625da665f8f06cf4') in 24.978010 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.708132 seconds.
+  path: Assets/Game/World/Ancient Temple Ruins/Materials/M_SingingStones.mat
+  artifactKey: Guid(610aa36a79902ce43bdd120ea1973119) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/World/Ancient Temple Ruins/Materials/M_SingingStones.mat using Guid(610aa36a79902ce43bdd120ea1973119) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe1754d27856a37a8be1a6e7654a984b') in 6.099961 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 14.964198 seconds.
+  path: Assets/Game/World/Ancient Temple Ruins/Materials/T_Detail_StoneWithPores_A.mat
+  artifactKey: Guid(03616430b340d27479b05c2ca874a399) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/World/Ancient Temple Ruins/Materials/T_Detail_StoneWithPores_A.mat using Guid(03616430b340d27479b05c2ca874a399) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ec9c60ef2891dcc90421e747a180b74') in 8.266985 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.099548 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image H:\OneDrive\Área de Trabalho\Shattered_Soul\Shattered-Sould-Stable\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image H:\OneDrive\Área de Trabalho\Shattered_Soul\Shattered-Sould-Stable\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.14 ms, found 7 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/EditorUtility.cs:575)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/EditorUtility.cs line 575]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  6.377 seconds
+Domain Reload Profiling:
+	ReloadAssembly (6378ms)
+		BeginReloadAssembly (1601ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (68ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (409ms)
+		EndReloadAssembly (4120ms)
+			LoadAssemblies (1294ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (2233ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (91ms)
+			SetupLoadedEditorAssemblies (895ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (20ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (109ms)
+				ProcessInitializeOnLoadAttributes (748ms)
+				ProcessInitializeOnLoadMethodAttributes (9ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (31ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 7.93 ms, found 7 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3504 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 160.0 MB.
+System memory in use after: 160.2 MB.
+
+Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 4112.
+Total: 10.045500 ms (FindLiveObjects: 0.354000 ms CreateObjectMapping: 0.261000 ms MarkObjects: 8.687900 ms  DeleteObjects: 0.740500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
