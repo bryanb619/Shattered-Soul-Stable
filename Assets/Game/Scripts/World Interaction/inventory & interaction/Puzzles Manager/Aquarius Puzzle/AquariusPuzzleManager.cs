@@ -27,13 +27,18 @@ public class AquariusPuzzleManager : MonoBehaviour
 
     // public Animator Greek_Animator;
 
-    //public Animation ;
+    //private Animation animSkull;
     //public Animation right_trigger;
 
     public GameObject Mirror2;
+    void Start()
+    {
+        //animSkull = gameObject.GetComponent<Animation>();
+
+    }
 
 
-    // Update is called once per frame
+        // Update is called once per frame
     void Update()
     {
         PuzzleItemDetection();
@@ -48,6 +53,12 @@ public class AquariusPuzzleManager : MonoBehaviour
 
             SkullTriggerAnim_IsPlaying = true;
             Debug.Log("skull active");
+
+            Skull_Animator.SetTrigger("Object_Insert");
+
+
+
+            //animSkull.Play("animalSkull");
 
         }
         if (this.Rope_Animator.GetCurrentAnimatorStateInfo(0).IsName("Rope_Trigger"))

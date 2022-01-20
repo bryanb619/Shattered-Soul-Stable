@@ -84,7 +84,6 @@ public class PlayerInteraction : MonoBehaviour
             else
                 InteractWithCurrentInteractive();
 
-
         }
     }
 
@@ -104,6 +103,13 @@ public class PlayerInteraction : MonoBehaviour
         _inventory.Add(item);
         _canvasManager.SetInventoryIcon(_inventory.Count - 1, item.GetIcon());
 
+        if (_inventory.Count == 6)
+        {
+            RemoveFromInventory2(item);
+            
+            
+            //DontDestroyOnLoad(_inventory[0]);
+        }
         //
     }
 
@@ -114,6 +120,15 @@ public class PlayerInteraction : MonoBehaviour
 
         for (int i = 0; i < _inventory.Count; ++i)
             _canvasManager.SetInventoryIcon(i, _inventory[i].GetIcon());
+    }
+
+    private void RemoveFromInventory2(Interactive item)
+    {
+        _inventory.Remove(item);
+        _canvasManager.ClearInventoryIcons();
+
+        RemoveFromInventory(_inventory[5]);
+
     }
 
     private bool IsInInventory(Interactive item)

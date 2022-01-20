@@ -137,7 +137,6 @@ Received Import Request.
   path: Assets/Game/Scripts/World Interaction/inventory & interaction/Puzzles Manager/NewBehaviourScript.cs
   artifactKey: Guid(7d8bafc55c7fe37418aacdfbaee28a6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/Game/Scripts/World Interaction/inventory & interaction/Puzzles Manager/NewBehaviourScript.cs using Guid(7d8bafc55c7fe37418aacdfbaee28a6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffe93ab02f6c4be2b470b6cc4928525b') in 0.024609 seconds 
-<<<<<<< HEAD
 ========================================================================
 Received Import Request.
   Time since last request: 3.017746 seconds.
@@ -176,46 +175,6 @@ Received Import Request.
 Start importing Assets/Game/Sprites/Puzzles/Gemini/Pieces of art/1.png using Guid(2dbf6d491abbc4643bd1fae0e75467ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bca37efaa8cba0e88789e63da405d0a8') in 0.166713 seconds 
 ========================================================================
 Received Import Request.
-=======
-========================================================================
-Received Import Request.
-  Time since last request: 3.017746 seconds.
-  path: Assets/Game/Scripts/World Interaction/inventory & interaction/Puzzles Manager/GeminiManager.cs
-  artifactKey: Guid(7d8bafc55c7fe37418aacdfbaee28a6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Game/Scripts/World Interaction/inventory & interaction/Puzzles Manager/GeminiManager.cs using Guid(7d8bafc55c7fe37418aacdfbaee28a6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c248a50df9192aa06004c63027d62b83') in 0.004324 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1996.572154 seconds.
-  path: Assets/Game/Scripts/World Interaction/inventory & interaction/Puzzles Manager/GeminiManager.cs
-  artifactKey: Guid(7d8bafc55c7fe37418aacdfbaee28a6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Game/Scripts/World Interaction/inventory & interaction/Puzzles Manager/GeminiManager.cs using Guid(7d8bafc55c7fe37418aacdfbaee28a6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cffd60dc00349803ef68ea08aba0a5b3') in 0.003104 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1236.196508 seconds.
-  path: Assets/Game/Sprites/Puzzles
-  artifactKey: Guid(439d5a00333935247bdc6766d0426aea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Game/Sprites/Puzzles using Guid(439d5a00333935247bdc6766d0426aea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0fdc8357fd2f4698ad6a84bab8e90d6c') in 0.005428 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 10.297713 seconds.
-  path: Assets/Game/Sprites/Puzzles/Gemini
-  artifactKey: Guid(258ee4028f916fe44a1620115415ae84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Game/Sprites/Puzzles/Gemini using Guid(258ee4028f916fe44a1620115415ae84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7bce036a60551e7dd20d3f2bc9b05594') in 0.005351 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 27.176722 seconds.
-  path: Assets/Game/Sprites/Puzzles/Gemini/Pieces of art
-  artifactKey: Guid(84397f79854c5f542937d470b2d58106) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Game/Sprites/Puzzles/Gemini/Pieces of art using Guid(84397f79854c5f542937d470b2d58106) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54e7bad8f6826ee1733180112aa97f39') in 0.004801 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.080488 seconds.
-  path: Assets/Game/Sprites/Puzzles/Gemini/Pieces of art/1.png
-  artifactKey: Guid(2dbf6d491abbc4643bd1fae0e75467ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Game/Sprites/Puzzles/Gemini/Pieces of art/1.png using Guid(2dbf6d491abbc4643bd1fae0e75467ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bca37efaa8cba0e88789e63da405d0a8') in 0.166713 seconds 
-========================================================================
-Received Import Request.
->>>>>>> origin/main
   Time since last request: 0.000162 seconds.
   path: Assets/Game/Sprites/Puzzles/Gemini/Pieces of art/6.png
   artifactKey: Guid(cea5d78ff4cb36b4d9cf512f84f137d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
@@ -268,160 +227,6 @@ Received Import Request.
   path: Assets/Game/Sprites/Puzzles/Gemini/Pieces of art/2.png
   artifactKey: Guid(03ae64db9a418bf4084083b71a04fb31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/Game/Sprites/Puzzles/Gemini/Pieces of art/2.png using Guid(03ae64db9a418bf4084083b71a04fb31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5edaefef0bcf7905c80643fecf4e6b4') in 0.019804 seconds 
-<<<<<<< HEAD
-========================================================================
-Received Import Request.
-  Time since last request: 0.000252 seconds.
-  path: Assets/Game/Sprites/Puzzles/Gemini/Pieces of art/4.png
-  artifactKey: Guid(3747325effbd9e84d8a5f13c8b6ee487) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Game/Sprites/Puzzles/Gemini/Pieces of art/4.png using Guid(3747325effbd9e84d8a5f13c8b6ee487) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5105bbc957fa876ed3549e95c2f4e793') in 0.043712 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000634 seconds.
-  path: Assets/Game/Sprites/Puzzles/Gemini/Pieces of art/1.png
-  artifactKey: Guid(2dbf6d491abbc4643bd1fae0e75467ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Game/Sprites/Puzzles/Gemini/Pieces of art/1.png using Guid(2dbf6d491abbc4643bd1fae0e75467ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a61fb04d81f6b3e6f3f8541aff92574') in 0.047263 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000256 seconds.
-  path: Assets/Game/Sprites/Puzzles/Gemini/Pieces of art/3.png
-  artifactKey: Guid(c52f2add2e76621488b3a2eb687ac377) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Game/Sprites/Puzzles/Gemini/Pieces of art/3.png using Guid(c52f2add2e76621488b3a2eb687ac377) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9468f4e318bd67490f0ded7f8bf6fd0') in 0.037087 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000246 seconds.
-  path: Assets/Game/Sprites/Puzzles/Gemini/Pieces of art/7.png
-  artifactKey: Guid(b20b4258dcf8835419a6af7ab4ae46a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Game/Sprites/Puzzles/Gemini/Pieces of art/7.png using Guid(b20b4258dcf8835419a6af7ab4ae46a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34b49fa21cfb30f97c9b43cf714c8ab8') in 0.013780 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 12.791221 seconds.
-  path: Assets/Game/Sprites/Puzzles/Gemini/puzzleg.png
-  artifactKey: Guid(e375424b4c765d34f9e51bdcbafaf598) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Game/Sprites/Puzzles/Gemini/puzzleg.png using Guid(e375424b4c765d34f9e51bdcbafaf598) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '014ccee468e8c425c816685972a30299') in 0.029643 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 5.614414 seconds.
-  path: Assets/Game/Sprites/Puzzles/Gemini/puzzleg.png
-  artifactKey: Guid(e375424b4c765d34f9e51bdcbafaf598) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Game/Sprites/Puzzles/Gemini/puzzleg.png using Guid(e375424b4c765d34f9e51bdcbafaf598) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3b9c7c7eec5eaff541aacbfe4a06c47') in 0.025301 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 175.058553 seconds.
-  path: Assets/Game/Sprites/Puzzles/Gemini/Pieces of art/8.png
-  artifactKey: Guid(55d36311690b3f84f8de8c4c4f5eb7f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Game/Sprites/Puzzles/Gemini/Pieces of art/8.png using Guid(55d36311690b3f84f8de8c4c4f5eb7f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d19b6055c032cff7d755909c09f276f') in 0.016997 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 5.807623 seconds.
-  path: Assets/Game/Sprites/Puzzles/Gemini/Pieces of art/10.png
-  artifactKey: Guid(fa33bf9936fd06840b5192a98a166e55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Game/Sprites/Puzzles/Gemini/Pieces of art/10.png using Guid(fa33bf9936fd06840b5192a98a166e55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec7b5a05108d1a7abc2efc0aa0c9c265') in 0.022079 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.587746 seconds.
-  path: Assets/Game/Sprites/Puzzles/Gemini/Pieces of art/11.png
-  artifactKey: Guid(ba8ba6f9c0e40474da1618f044479b58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Game/Sprites/Puzzles/Gemini/Pieces of art/11.png using Guid(ba8ba6f9c0e40474da1618f044479b58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6c98689d3d6614f7ee37e5b593fad66') in 0.018770 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.508317 seconds.
-  path: Assets/Game/Sprites/Puzzles/Gemini/Pieces of art/12.png
-  artifactKey: Guid(6fc04ce52141e524db6fe0b0b121d548) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Game/Sprites/Puzzles/Gemini/Pieces of art/12.png using Guid(6fc04ce52141e524db6fe0b0b121d548) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1c5ef9780db3acae84d0941c03a0839') in 0.018732 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.339706 seconds.
-  path: Assets/Game/Sprites/Puzzles/Gemini/Pieces of art/9.png
-  artifactKey: Guid(4de866e9ac59e3c4eacfbe5e6d4bcadb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Game/Sprites/Puzzles/Gemini/Pieces of art/9.png using Guid(4de866e9ac59e3c4eacfbe5e6d4bcadb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8df4c75f475830169f0097460aac3de2') in 0.024311 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 8.620660 seconds.
-  path: Assets/Game/Sprites/Puzzles/Gemini/Pieces of art/8.png
-  artifactKey: Guid(55d36311690b3f84f8de8c4c4f5eb7f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Game/Sprites/Puzzles/Gemini/Pieces of art/8.png using Guid(55d36311690b3f84f8de8c4c4f5eb7f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '350d75463d50db2e0cf33c1819979dfb') in 0.032343 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000775 seconds.
-  path: Assets/Game/Sprites/Puzzles/Gemini/Pieces of art/10.png
-  artifactKey: Guid(fa33bf9936fd06840b5192a98a166e55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Game/Sprites/Puzzles/Gemini/Pieces of art/10.png using Guid(fa33bf9936fd06840b5192a98a166e55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11b163ce61bc934425fbb9af4c12ff62') in 0.071106 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000275 seconds.
-  path: Assets/Game/Sprites/Puzzles/Gemini/Pieces of art/12.png
-  artifactKey: Guid(6fc04ce52141e524db6fe0b0b121d548) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Game/Sprites/Puzzles/Gemini/Pieces of art/12.png using Guid(6fc04ce52141e524db6fe0b0b121d548) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2a7b44cdeaa4eaaec07bb1e9a2572d7') in 0.075216 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000247 seconds.
-  path: Assets/Game/Sprites/Puzzles/Gemini/Pieces of art/9.png
-  artifactKey: Guid(4de866e9ac59e3c4eacfbe5e6d4bcadb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Game/Sprites/Puzzles/Gemini/Pieces of art/9.png using Guid(4de866e9ac59e3c4eacfbe5e6d4bcadb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e00009eb49a6fa5be23b5cc41c136535') in 0.060230 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000375 seconds.
-  path: Assets/Game/Sprites/Puzzles/Gemini/Pieces of art/11.png
-  artifactKey: Guid(ba8ba6f9c0e40474da1618f044479b58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Game/Sprites/Puzzles/Gemini/Pieces of art/11.png using Guid(ba8ba6f9c0e40474da1618f044479b58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ef15bd5e338c596e0d7c4c22fdb156e') in 0.018004 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.007253 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\steve\Documents\Universidade\2 Ano_2021_2022\1 Semestre\DJD2\Shattered Soul Stable\Shattered--Sould-Stable\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\steve\Documents\Universidade\2 Ano_2021_2022\1 Semestre\DJD2\Shattered Soul Stable\Shattered--Sould-Stable\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.97 ms, found 7 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Warning: Annotation not found!
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/EditorUtility.cs:575)
-UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/HierarchyListener.cs:21)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-[Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/EditorUtility.cs line 575]
-
-Mono: successfully reloaded assembly
-- Completed reload, in  1.432 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1432ms)
-		BeginReloadAssembly (232ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (7ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (103ms)
-		EndReloadAssembly (1130ms)
-			LoadAssemblies (122ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (344ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (43ms)
-			SetupLoadedEditorAssemblies (471ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (70ms)
-				ProcessInitializeOnLoadAttributes (383ms)
-				ProcessInitializeOnLoadMethodAttributes (5ms)
-				AfterProcessingInitializeOnLoad (7ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (20ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.85 ms, found 7 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3519 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 214.9 MB.
-System memory in use after: 215.1 MB.
-
-Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 4428.
-Total: 4.055000 ms (FindLiveObjects: 0.344300 ms CreateObjectMapping: 0.248800 ms MarkObjects: 3.442900 ms  DeleteObjects: 0.017800 ms)
-=======
 ========================================================================
 Received Import Request.
   Time since last request: 0.000252 seconds.
@@ -596,7 +401,6 @@ System memory in use after: 144.3 MB.
 
 Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 4428.
 Total: 4.574500 ms (FindLiveObjects: 0.547600 ms CreateObjectMapping: 0.373100 ms MarkObjects: 3.625900 ms  DeleteObjects: 0.026000 ms)
->>>>>>> origin/main
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
