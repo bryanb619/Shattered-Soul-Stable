@@ -110,7 +110,7 @@ public class PlayerInteraction : MonoBehaviour
             
             //DontDestroyOnLoad(_inventory[0]);
         }
-        //
+        
     }
 
     private void RemoveFromInventory(Interactive item)

@@ -32,8 +32,6 @@ public class PlayerMovement : MonoBehaviour
     {
         characterController = GetComponent<CharacterController>();
 
-        
-
         // Lock cursor
         HideCursor();
     }
@@ -79,20 +77,7 @@ public class PlayerMovement : MonoBehaviour
             playerCamera.transform.localRotation = Quaternion.Euler(rotationX, 0, 0);
             transform.rotation *= Quaternion.Euler(0, Input.GetAxis("Mouse_X") * lookSpeed, 0);
         }
-        /* if (Input.GetKeyDown(KeyCode.C))
-        {
-            playerCamera.transform.position = Vector3.Lerp(playerCamera.transform.position, crouchPosition.position, Time.deltaTime * smooth);
-            check = true;
-        }
-        else
-        {
-            if (check == true)
-            {
-                playerCamera.transform.position = Vector3.Lerp(playerCamera.transform.position, playerCamera.position, Time.deltaTime * smooth);
-                check = false;
-            }
-        }
-        */
+        
     }
     private void HideCursor()
     {
