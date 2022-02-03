@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Audio;
 
 [RequireComponent(typeof(CharacterController))]
 
@@ -23,10 +24,14 @@ public class PlayerMovement : MonoBehaviour
     Vector3 moveDirection = Vector3.zero;
     float rotationX = 0;
 
+ 
+
     [HideInInspector]
     public bool canMove = true;
 
     bool IsMoving = false;
+
+   
 
     void Start()
     {
@@ -47,6 +52,8 @@ public class PlayerMovement : MonoBehaviour
         float curSpeedY = canMove ? (isRunning ? runningSpeed : walkingSpeed) * Input.GetAxis("Strafe") : 0;
         float movementDirectionY = moveDirection.y;
         moveDirection = (forward * curSpeedX) + (right * curSpeedY);
+
+        
 
         if (Input.GetButton("Jump") && canMove && characterController.isGrounded)
         {
@@ -77,11 +84,15 @@ public class PlayerMovement : MonoBehaviour
             playerCamera.transform.localRotation = Quaternion.Euler(rotationX, 0, 0);
             transform.rotation *= Quaternion.Euler(0, Input.GetAxis("Mouse_X") * lookSpeed, 0);
         }
-        
+
+
     }
+
     private void HideCursor()
     {
         Cursor.visible = false;
         Cursor.lockState = CursorLockMode.Locked;
     }
+    
+
 }

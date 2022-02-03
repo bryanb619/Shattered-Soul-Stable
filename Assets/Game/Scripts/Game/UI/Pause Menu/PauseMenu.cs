@@ -2,19 +2,16 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
-using UnityEngine.UI;
 
 
 public class PauseMenu : MonoBehaviour
 {
-    // calling player script
-    // public Player Player;
 
     // Variables 
     // game pased bool 
     public static bool Paused = false;
 
-    // 
+    // Pause menu UI OBJECT
     public GameObject pauseMenu;
 
     // Update is called once per frame
@@ -48,13 +45,10 @@ public class PauseMenu : MonoBehaviour
         Cursor.visible = false;
         Cursor.lockState = CursorLockMode.Locked;
 
-
-
     }
     // method pause
     void Pause()
     {
-
 
         pauseMenu.SetActive(true);
 
@@ -63,20 +57,13 @@ public class PauseMenu : MonoBehaviour
         Paused = true;
         Cursor.visible = true;
         Cursor.lockState = CursorLockMode.None;
-
-
-
     }
 
     // buttons
     public void Resumeutton()
     {
-
-        pauseMenu.SetActive(false);
-
-        Time.timeScale = 1f;
-
-        Paused = false;
+        // use resume method
+        Resume();
 
     }
 

@@ -48,84 +48,84 @@ public class GeminiManager : MonoBehaviour
         {
 
             Art_1_IsPlaying = true;
-            Debug.Log("skull active");
+            
 
         }
         if (this.Art_2_Animator.GetCurrentAnimatorStateInfo(0).IsName("Art2_Trigger"))
         {
 
             Art_1_IsPlaying = true;
-            Debug.Log("rope active");
+            
         }
 
         if (this.Art_3_Animator.GetCurrentAnimatorStateInfo(0).IsName("Art3_Trigger"))
         {
 
             Art_1_IsPlaying = true;
-            Debug.Log("greek active");
+            
         }
 
         if (this.Art_4_Animator.GetCurrentAnimatorStateInfo(0).IsName("Art4_Trigger"))
         {
 
             Art_1_IsPlaying = true;
-            Debug.Log("cauldron active");
+            
         }
 
         if (this.Art_5_Animator.GetCurrentAnimatorStateInfo(0).IsName("Art5_Trigger"))
         {
 
             Art_5_IsPlaying = true;
-            Debug.Log("vase is active");
+            
         }
 
         if (this.Art_6_Animator.GetCurrentAnimatorStateInfo(0).IsName("Art6_Trigger"))
         {
 
             Art_6_IsPlaying = true;
-            Debug.Log("Bottle is active");
+            
         }
 
         if (this.Art_7_Animator.GetCurrentAnimatorStateInfo(0).IsName("Art7_Trigger"))
         {
 
             Art_7_IsPlaying = true;
-            Debug.Log("Bottle is active");
+            
         }
 
         if (this.Art_8_Animator.GetCurrentAnimatorStateInfo(0).IsName("Art8_Trigger"))
         {
 
             Art_8_IsPlaying = true;
-            Debug.Log("Bottle is active");
+            
         }
 
         if (this.Art_9_Animator.GetCurrentAnimatorStateInfo(0).IsName("Art9_Trigger"))
         {
 
             Art_9_IsPlaying = true;
-            Debug.Log("Bottle is active");
+            
         }
 
         if (this.Art_10_Animator.GetCurrentAnimatorStateInfo(0).IsName("Art10_Trigger"))
         {
 
             Art_10_IsPlaying = true;
-            Debug.Log("Bottle is active");
+            
         }
 
         if (this.Art_11_Animator.GetCurrentAnimatorStateInfo(0).IsName("Art11_Trigger"))
         {
 
             Art_11_IsPlaying = true;
-            Debug.Log("Bottle is active");
+            
         }
 
         if (this.Art_12_Animator.GetCurrentAnimatorStateInfo(0).IsName("Art12_Trigger"))
         {
 
             Art_12_IsPlaying = true;
-            Debug.Log("Bottle is active");
+            
         }
 
 
@@ -133,7 +133,7 @@ public class GeminiManager : MonoBehaviour
 
         if (Art_1_IsPlaying && Art_2_IsPlaying && Art_3_IsPlaying && Art_4_IsPlaying && Art_5_IsPlaying && Art_6_IsPlaying && Art_7_IsPlaying && Art_8_IsPlaying && Art_9_IsPlaying && Art_10_IsPlaying && Art_11_IsPlaying && Art_12_IsPlaying == true)
         {
-            Debug.Log("Job done");
+            
             Activate();
 
         }

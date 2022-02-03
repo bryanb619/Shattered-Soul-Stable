@@ -442,9 +442,9 @@ MonoBehaviour:
   m_Transition: 1
   m_Colors:
     m_NormalColor: {r: 0.23529412, g: 0.23529412, b: 0.23529412, a: 0}
-    m_HighlightedColor: {r: 0.23529412, g: 0.23529412, b: 0.23529412, a: 0.3137255}
-    m_PressedColor: {r: 0.23529412, g: 0.23529412, b: 0.23529412, a: 0.48235294}
-    m_SelectedColor: {r: 0.23529412, g: 0.23529412, b: 0.23529412, a: 0.72156864}
+    m_HighlightedColor: {r: 1, g: 0.9538098, b: 0, a: 0.654902}
+    m_PressedColor: {r: 1, g: 0.9529412, b: 0, a: 0.48235294}
+    m_SelectedColor: {r: 1, g: 0.9529412, b: 0, a: 0.72156864}
     m_DisabledColor: {r: 0.23529412, g: 0.23529412, b: 0.23529412, a: 0.23529412}
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
@@ -693,7 +693,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 1.4366, y: 2.6978}
+  m_AnchoredPosition: {x: 1.4365997, y: 2.6977997}
   m_SizeDelta: {x: 2.1548, y: -2.3108}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &952765133
@@ -806,17 +806,17 @@ Canvas:
   m_GameObject: {fileID: 1375347022}
   m_Enabled: 1
   serializedVersion: 3
-  m_RenderMode: 0
-  m_Camera: {fileID: 0}
+  m_RenderMode: 1
+  m_Camera: {fileID: 769405023}
   m_PlaneDistance: 100
-  m_PixelPerfect: 0
+  m_PixelPerfect: 1
   m_ReceivesEvents: 1
   m_OverrideSorting: 0
   m_OverridePixelPerfect: 0
   m_SortingBucketNormalizedSize: 0
   m_AdditionalShaderChannelsFlag: 0
   m_SortingLayerID: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_TargetDisplay: 0
 --- !u!224 &1375347026
 RectTransform:

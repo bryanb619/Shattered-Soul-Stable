@@ -12,6 +12,8 @@ public class PlayerInteraction : MonoBehaviour
     private bool                _playerHasRequirements;
     private List<Interactive>   _inventory;
 
+    public AudioSource Pick_Up;
+
     void Start()
     {
         _cameraTransform        = GetComponentInChildren<Camera>().transform;
@@ -102,6 +104,8 @@ public class PlayerInteraction : MonoBehaviour
     {
         _inventory.Add(item);
         _canvasManager.SetInventoryIcon(_inventory.Count - 1, item.GetIcon());
+
+        Pick_Up.Play();
 
         if (_inventory.Count == 6)
         {

@@ -17,15 +17,7 @@ public class LibraManager : MonoBehaviour
 
     public GameObject Mirror;
 
-
-    
-
-    // Start is called before the first frame update
-    void Start()
-    {
-    
-    }
-
+    public AudioSource Puzzle_Interact;
 
     // Update is called once per frame
     void Update()
@@ -34,14 +26,16 @@ public class LibraManager : MonoBehaviour
         { 
 
             LeftTriggerAnim_IsPlaying = true;
+            Puzzle_Interact.Play();
            
 
         }
         if (this.libra_right.GetCurrentAnimatorStateInfo(0).IsName("Right_trigger"))
         {
-           
+
             RightTriggerAnim_IsPlaying = true;
-            
+            Puzzle_Interact.Play();
+
         }
 
         if (LeftTriggerAnim_IsPlaying && RightTriggerAnim_IsPlaying == true)
