@@ -19,8 +19,6 @@ public class CanvasManager : MonoBehaviour
 
         LookForTAB_KeyCode();
 
-    
-
 
     }
 
@@ -49,6 +47,9 @@ public class CanvasManager : MonoBehaviour
             _inventoryIcons[i].sprite = null;
             _inventoryIcons[i].color = Color.clear;
         }
+
+
+        
     }
     private void LookForTAB_KeyCode()
     {
@@ -74,7 +75,8 @@ public class CanvasManager : MonoBehaviour
 
         Inventory_Canvas.SetActive(false);
         Inventory_Active = false;
-        //Cursor.lockState = CursorLockMode.Locked;
+        Cursor.visible = false;
+        Cursor.lockState = CursorLockMode.Locked;
 
     }
 
@@ -83,7 +85,8 @@ public class CanvasManager : MonoBehaviour
 
         Inventory_Canvas.SetActive(true);
         Inventory_Active = true;
-        //Cursor.lockState = CursorLockMode.None;
+        Cursor.visible = true;
+        Cursor.lockState = CursorLockMode.None;
 
     }
 

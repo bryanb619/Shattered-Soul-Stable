@@ -5,7 +5,10 @@ public class PlayerInteraction : MonoBehaviour
 {
     private const float MAX_INTERACTION_DISTANCE = 1.0f;
 
+
     [SerializeField] private CanvasManager _canvasManager;
+
+
 
     private Transform           _cameraTransform;
     private Interactive         _currentInteractive;
@@ -87,11 +90,14 @@ public class PlayerInteraction : MonoBehaviour
                 InteractWithCurrentInteractive();
 
         }
-    }
 
-    void LookForB_Keycode(Interactive item)
-    {
-        
+       /* if (Input.GetKey(KeyCode.F))
+        {
+            if()
+
+            
+        }
+       */
     }
 
     private void PickCurrentInteractive()
@@ -105,15 +111,14 @@ public class PlayerInteraction : MonoBehaviour
         _inventory.Add(item);
         _canvasManager.SetInventoryIcon(_inventory.Count - 1, item.GetIcon());
 
+        /*if ()
+        {
+            DoNotAdd(item);
+        }
+        */
+        // Sound pick up
         Pick_Up.Play();
 
-        if (_inventory.Count == 6)
-        {
-            RemoveFromInventory2(item);
-            
-            
-            //DontDestroyOnLoad(_inventory[0]);
-        }
         
     }
 
@@ -154,5 +159,14 @@ public class PlayerInteraction : MonoBehaviour
         }
 
         _currentInteractive.Interact();
+    }
+
+    private void DoNotAdd(Interactive item)
+    {
+        _inventory.Remove(item);
+        _canvasManager.ClearInventoryIcons();
+
+        for (int i = 0; i < _inventory.Count; ++i)
+            _canvasManager.SetInventoryIcon(i, _inventory[i].GetIcon());
     }
 }
