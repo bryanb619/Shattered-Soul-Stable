@@ -17,10 +17,9 @@ public class CanvasManager : MonoBehaviour
     private void Update()
     {
 
-        LookForI_KeyCode();
+        LookForTAB_KeyCode();
 
-        //LookForB_Keycode();
-
+    
 
 
     }
@@ -51,10 +50,10 @@ public class CanvasManager : MonoBehaviour
             _inventoryIcons[i].color = Color.clear;
         }
     }
-    private void LookForI_KeyCode()
+    private void LookForTAB_KeyCode()
     {
 
-        if (Input.GetKeyDown(KeyCode.I))
+        if (Input.GetKeyDown(KeyCode.Tab))
         {
 
             if (Inventory_Active)

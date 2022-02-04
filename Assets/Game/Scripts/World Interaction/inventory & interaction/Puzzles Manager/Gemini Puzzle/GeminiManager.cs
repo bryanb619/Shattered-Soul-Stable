@@ -39,9 +39,10 @@ public class GeminiManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        PuzzleItemDetection();
+        GeminiUpdate();
+
     }
-    void PuzzleItemDetection()
+    void GeminiUpdate()
     {
         // check if animations where played
         if (this.Art_1_Animator.GetCurrentAnimatorStateInfo(0).IsName("Art1_Trigger"))
@@ -142,9 +143,7 @@ public class GeminiManager : MonoBehaviour
     // activate Reward
     void Activate()
     {
-
         Mirror3.SetActive(true);
-
     }
 
 }

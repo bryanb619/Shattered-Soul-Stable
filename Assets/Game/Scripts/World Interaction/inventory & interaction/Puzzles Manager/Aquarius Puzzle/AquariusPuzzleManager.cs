@@ -6,8 +6,6 @@ public class AquariusPuzzleManager : MonoBehaviour
 {
 
     // public ScoreManager Script;
-
-
     public static bool SkullTriggerAnim_IsPlaying = false;
     public static bool RopeTriggerAnim_IsPlaying = false;
     public static bool GreekStatueTriggerAnim_IsPlaying = false;
@@ -45,7 +43,6 @@ public class AquariusPuzzleManager : MonoBehaviour
     {
         PuzzleItemDetection();
 
-
     }
     void PuzzleItemDetection()
     {
@@ -57,10 +54,6 @@ public class AquariusPuzzleManager : MonoBehaviour
             Debug.Log("skull active");
 
             Skull_Animator.SetTrigger("Object_Insert");
-
-
-
-            //animSkull.Play("animalSkull");
 
         }
         if (this.Rope_Animator.GetCurrentAnimatorStateInfo(0).IsName("Rope_Trigger"))
@@ -103,31 +96,20 @@ public class AquariusPuzzleManager : MonoBehaviour
 
         }
 
-
-
-
-
-
         // check if all is true 
 
         if (SkullTriggerAnim_IsPlaying && RopeTriggerAnim_IsPlaying && GreekStatueTriggerAnim_IsPlaying && CauldronStatueTriggerAnim_IsPlaying && VaseStatueTriggerAnim_IsPlaying && BottleTriggerAnim_IsPlaying == true)
         {
             
-            Activate();
+            PopUI();
 
         }
-    }
-
-    void Activate()
-    {
-
-        
-        PopUI();
-
     }
     void PopUI()
     {
         Mirror2.SetActive(true);
+
+        // END OF CODE
     }
 
 }
