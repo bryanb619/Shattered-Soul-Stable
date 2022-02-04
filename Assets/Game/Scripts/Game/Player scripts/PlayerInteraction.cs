@@ -82,7 +82,7 @@ public class PlayerInteraction : MonoBehaviour
 
     private void CheckForPlayerInteraction()
     {
-        if (Input.GetKey(KeyCode.E) && _currentInteractive != null && _playerHasRequirements)
+        if (Input.GetMouseButtonDown(0) && _currentInteractive != null && _playerHasRequirements)
         {
             if (_currentInteractive.GetInteractiveType() == Interactive.InteractiveType.PICKABLE)
                 PickCurrentInteractive();
