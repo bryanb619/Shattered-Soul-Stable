@@ -19,7 +19,6 @@ public class CanvasManager : MonoBehaviour
 
         LookForTAB_KeyCode();
 
-
     }
 
     public void HideInteractionPanel()
