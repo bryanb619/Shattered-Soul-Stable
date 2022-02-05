@@ -3,47 +3,64 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Audio;
 
+// automaticly require Character Controller
 [RequireComponent(typeof(CharacterController))]
-
 public class PlayerMovement : MonoBehaviour
 {
+    // Variables
+
+    // player speed
     [Header("Player Speed")]
     [SerializeField] private float walkingSpeed = 5.0f;
+
+    // Player Sprint speed
     [Header("Player Sprint Speed")]
     [SerializeField] private float runningSpeed = 8.5f;
+    // Jump Speed
     [Header("Player Jump Speed")]
     [SerializeField] private float jumpSpeed = 6.0f;
+    // Graavity basics
     [Header("Player Gravity")]
     [SerializeField] private float gravity = 20.0f;
+    // Player camera
     [Header("Player Camera")]
     [SerializeField] private Camera playerCamera;
+    // Look Speed
     [SerializeField] private float lookSpeed = 2.0f;
+    // Camera X limitation
     [SerializeField] private float lookXLimit = 45.0f;
-
+    
+    // Character Controller
     CharacterController characterController;
+    
+    // Vector motion
     Vector3 moveDirection = Vector3.zero;
+    // player rotation
     float rotationX = 0;
 
- 
-
+    // can player move
     [HideInInspector]
     public bool canMove = true;
 
-    bool IsMoving = false;
-
-   
-
     void Start()
     {
+        // Get Character controller
         characterController = GetComponent<CharacterController>();
 
-        // Lock cursor
+        // Lock and hide cursor
         HideCursor();
     }
 
     void Update()
     {
-        // We are grounded, so recalculate move direction based on axes
+        // detect player motion
+        DetectMotion();
+
+    }
+
+    void DetectMotion()
+    {
+        // When grounded  are grounded, so recalculate move direction based on axes
         Vector3 forward = transform.TransformDirection(Vector3.forward);
         Vector3 right = transform.TransformDirection(Vector3.right);
         // Left Shift to run
@@ -53,7 +70,7 @@ public class PlayerMovement : MonoBehaviour
         float movementDirectionY = moveDirection.y;
         moveDirection = (forward * curSpeedX) + (right * curSpeedY);
 
-        
+
 
         if (Input.GetButton("Jump") && canMove && characterController.isGrounded)
         {
@@ -84,8 +101,6 @@ public class PlayerMovement : MonoBehaviour
             playerCamera.transform.localRotation = Quaternion.Euler(rotationX, 0, 0);
             transform.rotation *= Quaternion.Euler(0, Input.GetAxis("Mouse_X") * lookSpeed, 0);
         }
-
-
     }
 
     private void HideCursor()
