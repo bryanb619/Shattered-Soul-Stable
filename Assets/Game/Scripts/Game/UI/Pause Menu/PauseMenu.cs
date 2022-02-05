@@ -9,7 +9,7 @@ public class PauseMenu : MonoBehaviour
 
     // Variables 
     // game pased bool 
-    public static bool Paused = false;
+    public bool Paused = false;
 
     // Pause menu UI OBJECT
     public GameObject pauseMenu;
@@ -31,7 +31,6 @@ public class PauseMenu : MonoBehaviour
         }
 
     }
-
     // method Resume
     void Resume()
     {
@@ -71,7 +70,7 @@ public class PauseMenu : MonoBehaviour
     {
         Time.timeScale = 1f;
         SceneManager.LoadScene("Main_Menu");
-        Debug.Log("Scene Loaded");
+        Debug.Log("Menu Loaded");
 
     }
 

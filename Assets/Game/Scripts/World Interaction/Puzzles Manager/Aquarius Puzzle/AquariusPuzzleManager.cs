@@ -5,9 +5,6 @@ using UnityEngine;
 public class AquariusPuzzleManager : MonoBehaviour
 {
 
-
-
-    // public ScoreManager Script;
     public static bool SkullTriggerAnim_IsPlaying = false;
     public static bool RopeTriggerAnim_IsPlaying = false;
     public static bool GreekStatueTriggerAnim_IsPlaying = false;
@@ -52,7 +49,7 @@ public class AquariusPuzzleManager : MonoBehaviour
         // check for Rope Trigger
         if (this.Rope_Animator.GetCurrentAnimatorStateInfo(0).IsName("Rope_Trigger"))
         {
-
+            // play interect sound
             Puzzle_Interact.Play();
             RopeTriggerAnim_IsPlaying = true;
 
@@ -63,6 +60,7 @@ public class AquariusPuzzleManager : MonoBehaviour
         {
 
             GreekStatueTriggerAnim_IsPlaying = true;
+            // play interect sound
             Puzzle_Interact.Play();
         }
         // check for Cauldron Trigger
@@ -70,6 +68,7 @@ public class AquariusPuzzleManager : MonoBehaviour
         {
 
             CauldronStatueTriggerAnim_IsPlaying = true;
+            // play interect sound
             Puzzle_Interact.Play();
 
         }
@@ -78,6 +77,7 @@ public class AquariusPuzzleManager : MonoBehaviour
         {
 
             VaseStatueTriggerAnim_IsPlaying = true;
+            // play interect sound
             Puzzle_Interact.Play();
 
         }
@@ -86,12 +86,12 @@ public class AquariusPuzzleManager : MonoBehaviour
         {
 
             BottleTriggerAnim_IsPlaying = true;
+            // play interect sound
             Puzzle_Interact.Play();
 
         }
 
         // check if all is true 
-
         if (SkullTriggerAnim_IsPlaying && RopeTriggerAnim_IsPlaying && GreekStatueTriggerAnim_IsPlaying && CauldronStatueTriggerAnim_IsPlaying && VaseStatueTriggerAnim_IsPlaying && BottleTriggerAnim_IsPlaying == true)
         {
             
