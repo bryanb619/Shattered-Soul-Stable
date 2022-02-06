@@ -6,34 +6,34 @@ EditorUserSettings:
   serializedVersion: 4
   m_ConfigSettings:
     RecentlyUsedScenePath-0:
-      value: 224247031146464e0307183b5d334a0a0c1b1d39353b323520641c20f1e52075efe625fde228700c2c18f530010d182ce60f044bc6190501140de94130ec031605d657f50fd20510ce2a05ddd918dcacf1d3d9e597c6e8cdcdda84fde3fea0edfbf8b1e2
-      flags: 0
-    RecentlyUsedScenePath-1:
       value: 224247031146467a01023f2909054d15135836232b2032700026123dc0f5262bf6a818e0e0322b7c140de032441c142de11e471ef8021e12
       flags: 0
-    RecentlyUsedScenePath-2:
+    RecentlyUsedScenePath-1:
       value: 224247031146467a01023f2909054d1513583c2f29386614383a167cc6e53128a2c323faec742a323016f6
       flags: 0
-    RecentlyUsedScenePath-3:
+    RecentlyUsedScenePath-2:
       value: 224247031146467a01023f2909054d1513583b25202c661e242e1527adc33b34e6a718e0e0322b722c0ce6281d
       flags: 0
-    RecentlyUsedScenePath-4:
+    RecentlyUsedScenePath-3:
       value: 224247031146467c0c03096d272c4d1c12583926201b2d290b3b1836adc33b34e6a718e0e0322b731a0de33844100838fa1e471ef8021e12
       flags: 0
-    RecentlyUsedScenePath-5:
+    RecentlyUsedScenePath-4:
       value: 224247031146467c0c03096d272c4d1c12583926201b2d290b3b1836adce3d3feaf376c4e835311e2c10fc284b100838fa1e4926f904044b331bef1d05b1051d18d101
       flags: 0
-    RecentlyUsedScenePath-6:
+    RecentlyUsedScenePath-5:
       value: 224247031146467c0c03096d272c4d1c12583926201b2d290b3b1836adc4313df2a712fcf43170183c07ff7c202b1234bc1f0702e212
       flags: 0
-    RecentlyUsedScenePath-7:
+    RecentlyUsedScenePath-6:
       value: 224247031146467c0c03096d23205a1e1304571a39323c3c28041c38ebee3376f7e93ffdfe
       flags: 0
-    RecentlyUsedScenePath-8:
+    RecentlyUsedScenePath-7:
       value: 224247031146467c0c03096d23205a1e130457072d21280f002c1326acf53a31f6fe
       flags: 0
-    RecentlyUsedScenePath-9:
+    RecentlyUsedScenePath-8:
       value: 224247031146467c0c03096d23205a1e1304570d2d25237e38271427fb
+      flags: 0
+    RecentlyUsedScenePath-9:
+      value: 224247031146467c0c03096d23205a1e1304570f020c19030e1b3816ccae2136ebf32f
       flags: 0
     UIBuilder.EditorExtensionModeKey:
       value: 37434103

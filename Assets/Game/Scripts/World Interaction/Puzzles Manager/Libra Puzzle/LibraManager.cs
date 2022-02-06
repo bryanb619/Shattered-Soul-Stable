@@ -1,7 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.UI;
 
 public class LibraManager : MonoBehaviour
 {
@@ -16,6 +15,7 @@ public class LibraManager : MonoBehaviour
     public Animator libra_right;
 
     public GameObject Mirror;
+
 
     [SerializeField]
     private AudioSource Puzzle_Interact;
@@ -59,9 +59,9 @@ public class LibraManager : MonoBehaviour
     }
     // UI Manager
     void PopUI()
-    {
+    { 
         // set mirror active
         Mirror.SetActive(true);
+    
     }
-
 }
