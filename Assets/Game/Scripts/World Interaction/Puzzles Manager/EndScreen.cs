@@ -15,11 +15,22 @@ public class EndScreen : MonoBehaviour
         MirrorsCondition();
     }
 
+    // detect game mirrors 
     private void MirrorsCondition()
     {
+        // if all active run code and load next scene
         if(MirrorPiece1.activeSelf && MirrorPiece2.activeSelf && MirrorPiece3.activeSelf)
         {
+            // cursor new settings
+            Cursor.visible = true;
+            Cursor.lockState = CursorLockMode.None;
+
+            // set time to real time ( unpause)
+            Time.timeScale = 1f;
+
+            // Load end scene
             SceneManager.LoadScene("END_SCREEN");
+
         }
     }
 }
