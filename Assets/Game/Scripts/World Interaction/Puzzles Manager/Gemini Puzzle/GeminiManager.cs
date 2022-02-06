@@ -55,21 +55,21 @@ public class GeminiManager : MonoBehaviour
         if (this.Art_2_Animator.GetCurrentAnimatorStateInfo(0).IsName("Art2_Trigger"))
         {
 
-            Art_1_IsPlaying = true;
+            Art_2_IsPlaying = true;
             
         }
 
         if (this.Art_3_Animator.GetCurrentAnimatorStateInfo(0).IsName("Art3_Trigger"))
         {
 
-            Art_1_IsPlaying = true;
+            Art_3_IsPlaying = true;
             
         }
 
         if (this.Art_4_Animator.GetCurrentAnimatorStateInfo(0).IsName("Art4_Trigger"))
         {
 
-            Art_1_IsPlaying = true;
+            Art_4_IsPlaying = true;
             
         }
 
@@ -131,15 +131,23 @@ public class GeminiManager : MonoBehaviour
 
 
         // check if all is true 
+        /*
+        if (Art_2_IsPlaying)
+        {
+            Activate();
+        }
+        */
 
+        
         if (Art_1_IsPlaying && Art_2_IsPlaying && Art_3_IsPlaying && Art_4_IsPlaying && Art_5_IsPlaying && Art_6_IsPlaying && Art_7_IsPlaying && Art_8_IsPlaying && Art_9_IsPlaying && Art_10_IsPlaying && Art_11_IsPlaying && Art_12_IsPlaying == true)
         {
             
             Activate();
 
         }
+        
     }
-
+    
     // activate Reward
     void Activate()
     {

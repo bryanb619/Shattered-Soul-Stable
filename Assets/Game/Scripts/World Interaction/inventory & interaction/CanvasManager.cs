@@ -77,10 +77,10 @@ public class CanvasManager : MonoBehaviour
         Inventory_Canvas.SetActive(false);
         Inventory_Active = false;
 
-        //  cursor settings
+        /* cursor settings
         Cursor.visible = false;
         Cursor.lockState = CursorLockMode.Locked;
-
+        */
     }
 
     public void Show_Inventory()
@@ -89,9 +89,9 @@ public class CanvasManager : MonoBehaviour
         Inventory_Canvas.SetActive(true);
         Inventory_Active = true;
 
-        // cursor settingd
+        /* cursor settingd
         Cursor.visible = true;
         Cursor.lockState = CursorLockMode.None;
-
+        */
     }
 }

@@ -41,9 +41,7 @@ public class AquariusPuzzleManager : MonoBehaviour
         {
 
             SkullTriggerAnim_IsPlaying = true;
-            Debug.Log("skull active");
-
-            Skull_Animator.SetTrigger("Object_Insert");
+            Puzzle_Interact.Play();
 
         }
         // check for Rope Trigger

@@ -8,21 +8,20 @@ public class PlayerInteraction : MonoBehaviour
 
     [SerializeField] private CanvasManager _canvasManager;
 
+    private Transform _cameraTransform;
+    private Interactive _currentInteractive;
+    private bool _playerHasRequirements;
+    private List<Interactive> _inventory;
 
-
-    private Transform           _cameraTransform;
-    private Interactive         _currentInteractive;
-    private bool                _playerHasRequirements;
-    private List<Interactive>   _inventory;
-
-    public AudioSource Pick_Up;
+    [SerializeField]
+    private AudioSource Pick_Up;
 
     void Start()
     {
-        _cameraTransform        = GetComponentInChildren<Camera>().transform;
-        _currentInteractive     = null;
-        _playerHasRequirements  = false;
-        _inventory              = new List<Interactive>();
+        _cameraTransform = GetComponentInChildren<Camera>().transform;
+        _currentInteractive = null;
+        _playerHasRequirements = false;
+        _inventory = new List<Interactive>();
     }
 
     void Update()
@@ -86,40 +85,31 @@ public class PlayerInteraction : MonoBehaviour
         {
             if (_currentInteractive.GetInteractiveType() == Interactive.InteractiveType.PICKABLE)
                 PickCurrentInteractive();
+
+
             else
                 InteractWithCurrentInteractive();
 
         }
 
-       /* if (Input.GetKey(KeyCode.F))
-        {
-            if()
-
-            
-        }
-       */
     }
+
 
     private void PickCurrentInteractive()
     {
         _currentInteractive.Interact();
         AddToInventory(_currentInteractive);
+            
+       
     }
 
     private void AddToInventory(Interactive item)
     {
+        
         _inventory.Add(item);
         _canvasManager.SetInventoryIcon(_inventory.Count - 1, item.GetIcon());
-
-        /*if ()
-        {
-            DoNotAdd(item);
-        }
-        */
-        // Sound pick up
         Pick_Up.Play();
 
-        
     }
 
     private void RemoveFromInventory(Interactive item)
@@ -161,12 +151,9 @@ public class PlayerInteraction : MonoBehaviour
         _currentInteractive.Interact();
     }
 
-    private void DoNotAdd(Interactive item)
+    private void DoNotAdd()
     {
-        _inventory.Remove(item);
-        _canvasManager.ClearInventoryIcons();
-
-        for (int i = 0; i < _inventory.Count; ++i)
-            _canvasManager.SetInventoryIcon(i, _inventory[i].GetIcon());
+        
+        
     }
 }
